@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_driver/ament_cmake_python/spot_driver/spot_driver.egg-info/SOURCES.txt

@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/mutate_world_object__rosidl_typesupport_introspection_c.h

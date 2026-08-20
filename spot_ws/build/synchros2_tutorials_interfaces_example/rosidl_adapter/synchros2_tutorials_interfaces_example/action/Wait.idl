@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from synchros2_tutorials_interfaces_example/action/Wait.action
+// generated code does not contain a copyright notice
+
+
+module synchros2_tutorials_interfaces_example {
+  module action {
+    @verbatim (language="comment", text=
+      "How long to wait")
+    struct Wait_Goal {
+      float n_seconds_to_wait;
+    };
+    @verbatim (language="comment", text=
+      "How long we actually waited")
+    struct Wait_Result {
+      float n_seconds_waited;
+    };
+    @verbatim (language="comment", text=
+      "How long is left")
+    struct Wait_Feedback {
+      float n_seconds_remaining;
+    };
+  };
+};

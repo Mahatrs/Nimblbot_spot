@@ -1,0 +1,1 @@
+/home/mtouri/ros2_ws_humble/build/nanotec_msgs/rosidl_generator_py/nanotec_msgs/msg/_driver_status_s.c

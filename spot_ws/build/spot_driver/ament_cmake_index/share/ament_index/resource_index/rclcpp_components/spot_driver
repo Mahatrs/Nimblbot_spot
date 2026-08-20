@@ -1,0 +1,4 @@
+spot_ros2::images::SpotImagePublisherNode;lib/libspot_image_publisher_component.so
+spot_ros2::StatePublisherNode;lib/libstate_publisher_component.so
+spot_ros2::LeaseManagerNode;lib/liblease_manager_component.so
+spot_ros2::kinematic::KinematicNode;lib/libspot_inverse_kinematics_component.so

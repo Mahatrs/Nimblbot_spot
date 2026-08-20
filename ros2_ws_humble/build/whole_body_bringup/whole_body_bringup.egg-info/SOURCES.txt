@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/whole_body_bringup
+whole_body_bringup/__init__.py
+whole_body_bringup.egg-info/PKG-INFO
+whole_body_bringup.egg-info/SOURCES.txt
+whole_body_bringup.egg-info/dependency_links.txt
+whole_body_bringup.egg-info/entry_points.txt
+whole_body_bringup.egg-info/requires.txt
+whole_body_bringup.egg-info/top_level.txt
+whole_body_bringup.egg-info/zip-safe

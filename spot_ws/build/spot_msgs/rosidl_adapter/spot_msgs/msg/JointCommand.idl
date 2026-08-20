@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from spot_msgs/msg/JointCommand.msg
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "list of the joint names to control")
+    struct JointCommand {
+      sequence<string> name;
+
+      @verbatim (language="comment", text=
+        "desired position commands for each joint in rad")
+      sequence<double> position;
+
+      @verbatim (language="comment", text=
+        "desired velocity commands for each joint in rad/s")
+      sequence<double> velocity;
+
+      @verbatim (language="comment", text=
+        "desired effort commands for each joint in Nm")
+      sequence<double> effort;
+
+      @verbatim (language="comment", text=
+        "desired k_q_p commands for each joint in Nm/rad")
+      sequence<double> k_q_p;
+
+      @verbatim (language="comment", text=
+        "desired k_qd_p command for each joint in Nms/rad")
+      sequence<double> k_qd_p;
+    };
+  };
+};

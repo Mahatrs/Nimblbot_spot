@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/src/spot_ros2/spot_driver/spot_driver/manual_conversions.py

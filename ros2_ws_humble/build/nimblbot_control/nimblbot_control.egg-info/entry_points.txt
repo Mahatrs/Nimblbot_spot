@@ -1,0 +1,11 @@
+[console_scripts]
+input_device_manager = nimblbot_control.input_device_manager:main
+interactive_pose_publisher = nimblbot_control.interactive_pose_publisher:main
+joint_teleop_gamepad = nimblbot_control.joint_teleop_gamepad:main
+joint_trajectory_publisher = nimblbot_control.joint_trajectory_publisher:main
+multiple_command_manager = nimblbot_control.multiple_command_manager:main
+skeleton_to_q = nimblbot_control.skeleton_to_q:main
+teleop_cartesian = nimblbot_control.teleop_cartesian:main
+teleop_modular = nimblbot_control.teleop_modular:main
+teleop_path_follow = nimblbot_control.teleop_path_follow:main
+

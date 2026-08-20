@@ -1,0 +1,24 @@
+[3.129s] Invoking command in '/home/mtouri/ros2_ws_humble/build/rviz_manager': PYTHONPATH=/home/mtouri/ros2_ws_humble/build/rviz_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/ros2_ws_humble/install/rviz_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/ros2_ws_humble/build/rviz_manager/build --no-deps symlink_data
+[3.896s] running develop
+[4.473s] running egg_info
+[4.473s] creating rviz_manager.egg-info
+[4.474s] writing rviz_manager.egg-info/PKG-INFO
+[4.474s] writing dependency_links to rviz_manager.egg-info/dependency_links.txt
+[4.474s] writing entry points to rviz_manager.egg-info/entry_points.txt
+[4.474s] writing requirements to rviz_manager.egg-info/requires.txt
+[4.474s] writing top-level names to rviz_manager.egg-info/top_level.txt
+[4.474s] writing manifest file 'rviz_manager.egg-info/SOURCES.txt'
+[4.479s] reading manifest file 'rviz_manager.egg-info/SOURCES.txt'
+[4.479s] writing manifest file 'rviz_manager.egg-info/SOURCES.txt'
+[4.482s] running build_ext
+[4.482s] Creating /home/mtouri/ros2_ws_humble/install/rviz_manager/lib/python3.10/site-packages/rviz-manager.egg-link (link to .)
+[4.482s] Installing manager script to /home/mtouri/ros2_ws_humble/install/rviz_manager/lib/rviz_manager
+[4.483s] 
+[4.483s] Installed /home/mtouri/ros2_ws_humble/build/rviz_manager
+[4.483s] running symlink_data
+[4.483s] creating /home/mtouri/ros2_ws_humble/install/rviz_manager/share/ament_index
+[4.483s] creating /home/mtouri/ros2_ws_humble/install/rviz_manager/share/ament_index/resource_index
+[4.483s] creating /home/mtouri/ros2_ws_humble/install/rviz_manager/share/ament_index/resource_index/packages
+[4.483s] symbolically linking /home/mtouri/ros2_ws_humble/build/rviz_manager/resource/rviz_manager -> /home/mtouri/ros2_ws_humble/install/rviz_manager/share/ament_index/resource_index/packages
+[4.484s] symbolically linking /home/mtouri/ros2_ws_humble/build/rviz_manager/package.xml -> /home/mtouri/ros2_ws_humble/install/rviz_manager/share/rviz_manager
+[4.884s] Invoked command in '/home/mtouri/ros2_ws_humble/build/rviz_manager' returned '0': PYTHONPATH=/home/mtouri/ros2_ws_humble/build/rviz_manager/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/ros2_ws_humble/install/rviz_manager/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/ros2_ws_humble/build/rviz_manager/build --no-deps symlink_data

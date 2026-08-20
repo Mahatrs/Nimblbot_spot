@@ -1,0 +1,1 @@
+/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

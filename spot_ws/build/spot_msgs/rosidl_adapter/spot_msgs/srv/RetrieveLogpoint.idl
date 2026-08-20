@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/RetrieveLogpoint.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_spot_cam_api_msgs/msg/Logpoint.idl"
+
+module spot_msgs {
+  module srv {
+    struct RetrieveLogpoint_Request {
+      string name;
+
+      @verbatim (language="comment", text=
+        "True to get raw data")
+      boolean raw;
+    };
+    struct RetrieveLogpoint_Response {
+      boolean success;
+
+      string message;
+
+      bosdyn_spot_cam_api_msgs::msg::Logpoint logpoint;
+
+      @verbatim (language="comment", text=
+        "Data comes in as byte buffer.")
+      sequence<uint8> data;
+    };
+  };
+};

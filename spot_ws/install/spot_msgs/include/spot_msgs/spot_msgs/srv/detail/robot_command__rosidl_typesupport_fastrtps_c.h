@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/robot_command__rosidl_typesupport_fastrtps_c.h

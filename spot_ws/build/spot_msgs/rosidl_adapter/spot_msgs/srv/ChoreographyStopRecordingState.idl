@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/ChoreographyStopRecordingState.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    struct ChoreographyStopRecordingState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ChoreographyStopRecordingState_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

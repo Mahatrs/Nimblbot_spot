@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nanotec_msgs__rs",
+		"source" : "/home/mtouri/ros2_ws_humble/build/nanotec_msgs/nanotec_msgs__rs"
+	}
+}

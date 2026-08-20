@@ -1,0 +1,7 @@
+{
+  "package_name": "synchros2_tutorials_interfaces_example",
+  "non_idl_tuples": [
+    "/home/mtouri/spot_ws/src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example:action/Wait.action",
+    "/home/mtouri/spot_ws/src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example:msg/String.msg"
+  ]
+}

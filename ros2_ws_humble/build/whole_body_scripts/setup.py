@@ -1,0 +1,1 @@
+/home/mtouri/ros2_ws_humble/src/whole-body-spot-nb/whole_body_scripts/setup.py

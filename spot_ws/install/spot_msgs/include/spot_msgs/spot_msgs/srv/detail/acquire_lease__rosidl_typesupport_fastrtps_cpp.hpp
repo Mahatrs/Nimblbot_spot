@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_typesupport_fastrtps_cpp/spot_msgs/srv/detail/acquire_lease__rosidl_typesupport_fastrtps_cpp.hpp

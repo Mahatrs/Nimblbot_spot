@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating synchros2.egg-info
+writing synchros2.egg-info/PKG-INFO
+writing dependency_links to synchros2.egg-info/dependency_links.txt
+writing requirements to synchros2.egg-info/requires.txt
+writing top-level names to synchros2.egg-info/top_level.txt
+writing manifest file 'synchros2.egg-info/SOURCES.txt'
+reading manifest file 'synchros2.egg-info/SOURCES.txt'
+writing manifest file 'synchros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages/synchros2.egg-link (link to .)
+
+Installed /home/mtouri/spot_ws/build/synchros2
+running symlink_data
+creating /home/mtouri/spot_ws/install/synchros2/share/ament_index
+creating /home/mtouri/spot_ws/install/synchros2/share/ament_index/resource_index
+creating /home/mtouri/spot_ws/install/synchros2/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/spot_ws/build/synchros2/resource/synchros2 -> /home/mtouri/spot_ws/install/synchros2/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/spot_ws/build/synchros2/package.xml -> /home/mtouri/spot_ws/install/synchros2/share/synchros2

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ros_babel_fish_test_msgs__rs",
+		"source" : "/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/ros_babel_fish_test_msgs__rs"
+	}
+}

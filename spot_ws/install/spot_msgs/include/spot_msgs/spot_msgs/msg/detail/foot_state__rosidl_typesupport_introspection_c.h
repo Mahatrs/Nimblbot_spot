@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_typesupport_introspection_c/spot_msgs/msg/detail/foot_state__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,240 @@
+[0.498s] Invoking command in '/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mtouri/spot_ws/src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example
+[0.550s] -- The C compiler identification is GNU 11.4.0
+[0.601s] -- The CXX compiler identification is GNU 11.4.0
+[0.609s] -- Detecting C compiler ABI info
+[0.679s] -- Detecting C compiler ABI info - done
+[0.685s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.685s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.688s] -- Detecting CXX compiler ABI info
+[0.766s] -- Detecting CXX compiler ABI info - done
+[0.771s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.772s] -- Detecting CXX compile features
+[0.772s] -- Detecting CXX compile features - done
+[0.775s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.917s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.976s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.003s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.012s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.051s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.350s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.726s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.746s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.748s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.771s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.771s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.771s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.771s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.790s] -- Found PythonExtra: .so  
+[1.876s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.896s] -- Added test 'lint_cmake' to check CMake code style
+[1.897s] -- Added test 'xmllint' to check XML markup files
+[1.900s] -- Configuring done
+[1.933s] -- Generating done
+[1.943s] -- Build files have been written to: /home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example
+[1.979s] Invoked command in '/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mtouri/spot_ws/src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example
+[1.980s] Invoking command in '/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example -- -j16 -l16
+[2.022s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.033s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.033s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.043s] [  7%] Built target ament_cmake_python_symlink_synchros2_tutorials_interfaces_example
+[2.299s] [  7%] Built target synchros2_tutorials_interfaces_example__rs
+[2.315s] running egg_info
+[2.315s] creating synchros2_tutorials_interfaces_example.egg-info
+[2.315s] writing synchros2_tutorials_interfaces_example.egg-info/PKG-INFO
+[2.316s] writing dependency_links to synchros2_tutorials_interfaces_example.egg-info/dependency_links.txt
+[2.316s] writing top-level names to synchros2_tutorials_interfaces_example.egg-info/top_level.txt
+[2.316s] writing manifest file 'synchros2_tutorials_interfaces_example.egg-info/SOURCES.txt'
+[2.318s] reading manifest file 'synchros2_tutorials_interfaces_example.egg-info/SOURCES.txt'
+[2.319s] writing manifest file 'synchros2_tutorials_interfaces_example.egg-info/SOURCES.txt'
+[2.361s] [  7%] Built target ament_cmake_python_build_synchros2_tutorials_interfaces_example_egg
+[2.448s] [ 10%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_generator_c.dir/rosidl_generator_c/synchros2_tutorials_interfaces_example/action/detail/wait__functions.c.o[0m
+[2.449s] [ 12%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_generator_c.dir/rosidl_generator_c/synchros2_tutorials_interfaces_example/msg/detail/string__functions.c.o[0m
+[2.461s] [ 12%] Built target synchros2_tutorials_interfaces_example__cpp
+[2.473s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.473s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.478s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.561s] [ 22%] [32m[1mLinking C shared library libsynchros2_tutorials_interfaces_example__rosidl_generator_c.so[0m
+[2.601s] [ 22%] Built target synchros2_tutorials_interfaces_example__rosidl_generator_c
+[2.613s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.613s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.615s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.842s] [ 32%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/synchros2_tutorials_interfaces_example/msg/string__type_support.cpp.o[0m
+[2.842s] [ 35%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/synchros2_tutorials_interfaces_example/action/wait__type_support.cpp.o[0m
+[2.868s] [ 37%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/synchros2_tutorials_interfaces_example/action/detail/dds_fastrtps/wait__type_support.cpp.o[0m
+[2.871s] [ 40%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/synchros2_tutorials_interfaces_example/msg/detail/dds_fastrtps/string__type_support.cpp.o[0m
+[2.877s] [ 42%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/synchros2_tutorials_interfaces_example/action/detail/wait__type_support.cpp.o[0m
+[2.877s] [ 45%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/synchros2_tutorials_interfaces_example/msg/detail/string__type_support.cpp.o[0m
+[2.932s] [ 50%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/synchros2_tutorials_interfaces_example/action/wait__type_support.cpp.o[0m
+[2.932s] [ 50%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/synchros2_tutorials_interfaces_example/msg/string__type_support.cpp.o[0m
+[3.009s] [ 52%] [32m[1mLinking CXX shared library libsynchros2_tutorials_interfaces_example__rosidl_typesupport_c.so[0m
+[3.069s] [ 57%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/synchros2_tutorials_interfaces_example/action/detail/wait__type_support.c.o[0m
+[3.070s] [ 57%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/synchros2_tutorials_interfaces_example/msg/detail/string__type_support.c.o[0m
+[3.083s] [ 57%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_c
+[3.123s] [ 60%] [32m[1mLinking C shared library libsynchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c.so[0m
+[3.159s] [ 65%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/action/detail/wait__type_support_c.cpp.o[0m
+[3.160s] [ 65%] [32mBuilding CXX object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/msg/detail/string__type_support_c.cpp.o[0m
+[3.161s] [ 65%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c
+[3.345s] [ 67%] [32m[1mLinking CXX shared library libsynchros2_tutorials_interfaces_example__rosidl_typesupport_cpp.so[0m
+[3.390s] [ 67%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_cpp
+[3.407s] [ 70%] [32m[1mLinking CXX shared library libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.479s] [ 70%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp
+[3.481s] [ 72%] [32m[1mLinking CXX shared library libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.so[0m
+[3.504s] [ 75%] [32m[1mLinking CXX shared library libsynchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp.so[0m
+[3.548s] [ 75%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c
+[3.570s] [ 75%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp
+[3.591s] [ 75%] Built target synchros2_tutorials_interfaces_example
+[3.612s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.156s] [ 77%] Built target synchros2_tutorials_interfaces_example__py
+[4.178s] [ 82%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_generator_py.dir/rosidl_generator_py/synchros2_tutorials_interfaces_example/msg/_string_s.c.o[0m
+[4.179s] [ 82%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_generator_py.dir/rosidl_generator_py/synchros2_tutorials_interfaces_example/action/_wait_s.c.o[0m
+[4.286s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/synchros2_tutorials_interfaces_example/libsynchros2_tutorials_interfaces_example__rosidl_generator_py.so[0m
+[4.327s] [ 85%] Built target synchros2_tutorials_interfaces_example__rosidl_generator_py
+[4.348s] [ 92%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/synchros2_tutorials_interfaces_example/_synchros2_tutorials_interfaces_example_s.ep.rosidl_typesupport_c.c.o[0m
+[4.348s] [ 92%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/synchros2_tutorials_interfaces_example/_synchros2_tutorials_interfaces_example_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.348s] [ 92%] [32mBuilding C object CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/synchros2_tutorials_interfaces_example/_synchros2_tutorials_interfaces_example_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.445s] [100%] [32m[1mLinking C shared library rosidl_generator_py/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.445s] [100%] [32m[1mLinking C shared library rosidl_generator_py/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.445s] [100%] [32m[1mLinking C shared library rosidl_generator_py/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.483s] [100%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c__pyext
+[4.483s] [100%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_c__pyext
+[4.483s] [100%] Built target synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c__pyext
+[4.495s] Invoked command in '/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example -- -j16 -l16
+[4.497s] Invoking command in '/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example
+[4.505s] -- Install configuration: ""
+[4.506s] -- Execute custom install script
+[4.506s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/ament_index/resource_index/rosidl_interfaces/synchros2_tutorials_interfaces_example
+[4.515s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__functions.h
+[4.523s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__struct.h
+[4.534s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__type_support.h
+[4.544s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/wait.h
+[4.554s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__functions.h
+[4.563s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__struct.h
+[4.572s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__type_support.h
+[4.582s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/rosidl_generator_c__visibility_control.h
+[4.591s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/string.h
+[4.600s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/library_path.sh
+[4.608s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/library_path.dsv
+[4.618s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__rosidl_typesupport_fastrtps_c.h
+[4.628s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__rosidl_typesupport_fastrtps_c.h
+[4.636s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.645s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__rosidl_typesupport_introspection_c.h
+[4.656s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__rosidl_typesupport_introspection_c.h
+[4.664s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.674s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__builder.hpp
+[4.683s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__struct.hpp
+[4.693s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__traits.hpp
+[4.703s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__type_support.hpp
+[4.712s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/wait.hpp
+[4.722s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__builder.hpp
+[4.732s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__struct.hpp
+[4.742s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__traits.hpp
+[4.750s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__type_support.hpp
+[4.759s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.768s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/string.hpp
+[4.777s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__rosidl_typesupport_fastrtps_cpp.hpp
+[4.786s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__rosidl_typesupport_fastrtps_cpp.hpp
+[4.795s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.803s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/action/detail/wait__rosidl_typesupport_introspection_cpp.hpp
+[4.813s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/include/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example/msg/detail/string__rosidl_typesupport_introspection_cpp.hpp
+[4.822s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/pythonpath.sh
+[4.832s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/pythonpath.dsv
+[4.841s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example-1.0.4-py3.10.egg-info/PKG-INFO
+[4.849s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example-1.0.4-py3.10.egg-info/SOURCES.txt
+[4.857s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example-1.0.4-py3.10.egg-info/dependency_links.txt
+[4.865s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example-1.0.4-py3.10.egg-info/top_level.txt
+[4.874s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/__init__.py
+[4.882s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/_synchros2_tutorials_interfaces_example_s.ep.rosidl_typesupport_c.c
+[4.890s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/_synchros2_tutorials_interfaces_example_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.898s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/_synchros2_tutorials_interfaces_example_s.ep.rosidl_typesupport_introspection_c.c
+[4.906s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/action/__init__.py
+[4.914s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/action/_wait.py
+[4.922s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/action/_wait_s.c
+[4.931s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/libsynchros2_tutorials_interfaces_example__rosidl_generator_py.so
+[4.939s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/msg/__init__.py
+[4.948s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/msg/_string.py
+[4.958s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/msg/_string_s.c
+[4.967s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.976s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.985s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.994s] -- Up-to-date symlink: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.995s] -- Up-to-date symlink: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.995s] -- Up-to-date symlink: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.995s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/ament_index/resource_index/rust_packages/synchros2_tutorials_interfaces_example
+[5.003s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/rust/Cargo.toml
+[5.013s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/rust/build.rs
+[5.022s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/rust/src/action.rs
+[5.031s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/rust/src/action/rmw.rs
+[5.041s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/rust/src/lib.rs
+[5.050s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/rust/src/msg.rs
+[5.060s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/rust/src/msg/rmw.rs
+[5.068s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/action/Wait.idl
+[5.078s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/msg/String.idl
+[5.087s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/action/Wait.action
+[5.096s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/msg/String.msg
+[5.106s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/ament_index/resource_index/package_run_dependencies/synchros2_tutorials_interfaces_example
+[5.115s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/ament_index/resource_index/parent_prefix_path/synchros2_tutorials_interfaces_example
+[5.124s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/ament_prefix_path.sh
+[5.133s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/ament_prefix_path.dsv
+[5.142s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/path.sh
+[5.150s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/environment/path.dsv
+[5.159s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/local_setup.bash
+[5.168s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/local_setup.sh
+[5.177s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/local_setup.zsh
+[5.185s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/local_setup.dsv
+[5.194s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/package.dsv
+[5.203s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/ament_index/resource_index/packages/synchros2_tutorials_interfaces_example
+[5.212s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/rosidl_cmake-extras.cmake
+[5.221s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.230s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.239s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/ament_cmake_export_libraries-extras.cmake
+[5.250s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/ament_cmake_export_targets-extras.cmake
+[5.258s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.269s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.279s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_exampleConfig.cmake
+[5.288s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_exampleConfig-version.cmake
+[5.299s] -- Symlinking: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/package.xml
+[5.308s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_generator_c.so
+[5.308s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_generator_c.so" to ""
+[5.308s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.so
+[5.309s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.so" to ""
+[5.309s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c.so
+[5.309s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_c.so" to ""
+[5.309s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_c.so
+[5.310s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_c.so" to ""
+[5.310s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp.so
+[5.310s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.310s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp.so
+[5.310s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cpp.so" to ""
+[5.310s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_cpp.so
+[5.311s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_typesupport_cpp.so" to ""
+[5.341s] Listing '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example'...
+[5.341s] Compiling '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/__init__.py'...
+[5.341s] Listing '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/action'...
+[5.341s] Compiling '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/action/__init__.py'...
+[5.341s] Compiling '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/action/_wait.py'...
+[5.341s] Listing '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/msg'...
+[5.341s] Compiling '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/msg/__init__.py'...
+[5.342s] Compiling '/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages/synchros2_tutorials_interfaces_example/msg/_string.py'...
+[5.345s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_generator_py.so
+[5.345s] -- Set runtime path of "/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/lib/libsynchros2_tutorials_interfaces_example__rosidl_generator_py.so" to ""
+[5.345s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_generator_cExport.cmake
+[5.345s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_generator_cExport-noconfig.cmake
+[5.345s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cExport.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cExport.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_cExport.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_cExport-noconfig.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_generator_cppExport.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.346s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.347s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cppExport.cmake
+[5.347s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.347s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_cppExport.cmake
+[5.347s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/synchros2_tutorials_interfaces_example__rosidl_typesupport_cppExport-noconfig.cmake
+[5.347s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_generator_pyExport.cmake
+[5.347s] -- Installing: /home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/share/synchros2_tutorials_interfaces_example/cmake/export_synchros2_tutorials_interfaces_example__rosidl_generator_pyExport-noconfig.cmake
+[5.350s] Invoked command in '/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example

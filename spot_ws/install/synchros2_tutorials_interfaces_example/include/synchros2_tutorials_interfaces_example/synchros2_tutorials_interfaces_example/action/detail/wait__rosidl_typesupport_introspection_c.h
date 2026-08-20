@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/rosidl_typesupport_introspection_c/synchros2_tutorials_interfaces_example/action/detail/wait__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,8 @@
+source;share/circular_carrier_description/hook/cmake_prefix_path.ps1
+source;share/circular_carrier_description/hook/cmake_prefix_path.dsv
+source;share/circular_carrier_description/hook/cmake_prefix_path.sh
+source;share/circular_carrier_description/local_setup.bash
+source;share/circular_carrier_description/local_setup.dsv
+source;share/circular_carrier_description/local_setup.ps1
+source;share/circular_carrier_description/local_setup.sh
+source;share/circular_carrier_description/local_setup.zsh

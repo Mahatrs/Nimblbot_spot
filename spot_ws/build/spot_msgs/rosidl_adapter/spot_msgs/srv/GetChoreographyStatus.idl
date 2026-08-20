@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/GetChoreographyStatus.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    module GetChoreographyStatus_Request_Constants {
+      @verbatim (language="comment", text=
+        "Start Replicated Enum")
+      const uint8 STATUS_UNKNOWN = 0;
+      const uint8 STATUS_DANCING = 1;
+      const uint8 STATUS_COMPLETED_SEQUENCE = 2;
+      const uint8 STATUS_PREPPING = 3;
+      const uint8 STATUS_WAITING_FOR_START_TIME = 4;
+      const uint8 STATUS_VALIDATING = 5;
+      const uint8 STATUS_INTERRUPTED = 6;
+      const uint8 STATUS_FALLEN = 7;
+      const uint8 STATUS_POWERED_OFF = 8;
+      const uint8 STATUS_OTHER = 9;
+    };
+    @verbatim (language="comment", text=
+      "This message is designed for bosdyn-api 3.3.0 so " "\n"
+      "default message definitions aren't available. They're" "\n"
+      "replicated here as constants that map to appropriate enums" "\n"
+      "https://dev.bostondynamics.com/choreography_protos/bosdyn/api/choreography_reference.html#choreographystatusresponse")
+    struct GetChoreographyStatus_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetChoreographyStatus_Response {
+      boolean success;
+
+      string message;
+
+      uint8 status;
+
+      int32 execution_id;
+    };
+  };
+};

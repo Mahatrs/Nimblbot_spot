@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/GetInverseKinematicSolutions.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_spot_api_msgs/msg/InverseKinematicsRequest.idl"
+#include "bosdyn_spot_api_msgs/msg/InverseKinematicsResponse.idl"
+
+module spot_msgs {
+  module srv {
+    struct GetInverseKinematicSolutions_Request {
+      bosdyn_spot_api_msgs::msg::InverseKinematicsRequest request;
+    };
+    struct GetInverseKinematicSolutions_Response {
+      bosdyn_spot_api_msgs::msg::InverseKinematicsResponse response;
+    };
+  };
+};

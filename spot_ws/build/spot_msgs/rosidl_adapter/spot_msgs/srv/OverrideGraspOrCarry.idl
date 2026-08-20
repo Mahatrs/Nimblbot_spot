@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/OverrideGraspOrCarry.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_api_msgs/msg/ApiGraspOverrideOverride.idl"
+#include "bosdyn_api_msgs/msg/ManipulatorStateCarryState.idl"
+
+module spot_msgs {
+  module srv {
+    struct OverrideGraspOrCarry_Request {
+      bosdyn_api_msgs::msg::ApiGraspOverrideOverride grasp_override;
+
+      bosdyn_api_msgs::msg::ManipulatorStateCarryState carry_override;
+    };
+    struct OverrideGraspOrCarry_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

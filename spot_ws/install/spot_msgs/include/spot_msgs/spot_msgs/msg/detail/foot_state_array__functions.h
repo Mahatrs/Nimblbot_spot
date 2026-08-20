@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/msg/detail/foot_state_array__functions.h

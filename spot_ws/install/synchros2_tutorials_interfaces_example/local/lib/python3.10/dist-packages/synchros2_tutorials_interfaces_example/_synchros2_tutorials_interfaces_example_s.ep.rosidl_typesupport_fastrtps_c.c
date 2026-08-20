@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/rosidl_generator_py/synchros2_tutorials_interfaces_example/_synchros2_tutorials_interfaces_example_s.ep.rosidl_typesupport_fastrtps_c.c

@@ -1,0 +1,9 @@
+source;share/spot_examples/hook/pythonpath.ps1
+source;share/spot_examples/hook/pythonpath.dsv
+source;share/spot_examples/hook/pythonpath.sh
+source;share/spot_examples/hook/ament_prefix_path.ps1
+source;share/spot_examples/hook/ament_prefix_path.dsv
+source;share/spot_examples/hook/ament_prefix_path.sh
+source;../../build/spot_examples/share/spot_examples/hook/pythonpath_develop.ps1
+source;../../build/spot_examples/share/spot_examples/hook/pythonpath_develop.dsv
+source;../../build/spot_examples/share/spot_examples/hook/pythonpath_develop.sh

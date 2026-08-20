@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from spot_msgs/action/NavigateTo.action
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module action {
+    struct NavigateTo_Goal {
+      @verbatim (language="comment", text=
+        "waypoint ID to navigate to")
+      string waypoint_id;
+    };
+    struct NavigateTo_Result {
+      @verbatim (language="comment", text=
+        "indicate successful run of triggered service")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "informational, e.g. for error messages")
+      string message;
+    };
+    struct NavigateTo_Feedback {
+      string waypoint_id;
+    };
+  };
+};

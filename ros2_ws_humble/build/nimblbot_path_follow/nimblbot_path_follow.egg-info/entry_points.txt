@@ -1,0 +1,3 @@
+[console_scripts]
+target_path_manager = nimblbot_path_follow.target_path_manager:main
+

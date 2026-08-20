@@ -1,0 +1,30 @@
+running develop
+running egg_info
+creating nimblbot_control.egg-info
+writing nimblbot_control.egg-info/PKG-INFO
+writing dependency_links to nimblbot_control.egg-info/dependency_links.txt
+writing entry points to nimblbot_control.egg-info/entry_points.txt
+writing requirements to nimblbot_control.egg-info/requires.txt
+writing top-level names to nimblbot_control.egg-info/top_level.txt
+writing manifest file 'nimblbot_control.egg-info/SOURCES.txt'
+reading manifest file 'nimblbot_control.egg-info/SOURCES.txt'
+writing manifest file 'nimblbot_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/python3.10/site-packages/nimblbot-control.egg-link (link to .)
+Installing input_device_manager script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing interactive_pose_publisher script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing joint_teleop_gamepad script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing joint_trajectory_publisher script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing multiple_command_manager script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing skeleton_to_q script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing teleop_cartesian script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing teleop_modular script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+Installing teleop_path_follow script to /home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/nimblbot_control
+
+Installed /home/mtouri/ros2_ws_humble/build/nimblbot_control
+running symlink_data
+creating /home/mtouri/ros2_ws_humble/install/nimblbot_control/share/ament_index
+creating /home/mtouri/ros2_ws_humble/install/nimblbot_control/share/ament_index/resource_index
+creating /home/mtouri/ros2_ws_humble/install/nimblbot_control/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/ros2_ws_humble/build/nimblbot_control/resource/nimblbot_control -> /home/mtouri/ros2_ws_humble/install/nimblbot_control/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/ros2_ws_humble/build/nimblbot_control/package.xml -> /home/mtouri/ros2_ws_humble/install/nimblbot_control/share/nimblbot_control

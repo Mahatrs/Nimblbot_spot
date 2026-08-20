@@ -1,0 +1,5 @@
+[console_scripts]
+circular_wrapper_nanotec = circular_carrier_control.circular_wrapper_nanotec:main
+joint_csv_publisher = circular_carrier_control.joint_csv_publisher:main
+marker_interaction = circular_carrier_control.marker_interaction:main
+

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/RobotCommand.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_api_msgs/msg/RobotCommand.idl"
+#include "builtin_interfaces/msg/Duration.idl"
+
+module spot_msgs {
+  module srv {
+    struct RobotCommand_Request {
+      bosdyn_api_msgs::msg::RobotCommand command;
+
+      builtin_interfaces::msg::Duration duration;
+    };
+    struct RobotCommand_Response {
+      boolean success;
+
+      string message;
+
+      uint32 robot_command_id;
+    };
+  };
+};

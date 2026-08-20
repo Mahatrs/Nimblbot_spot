@@ -1,0 +1,13 @@
+[console_scripts]
+arm_simple = spot_examples.arm_simple:main
+arm_with_body_follow = spot_examples.arm_with_body_follow:main
+batch_trajectory = spot_examples.batch_trajectory:main
+hello_spot = spot_examples.hello_spot:main
+nogo_example = spot_examples.nogo_example:main
+relative_move_then_pose = spot_examples.relative_move_then_pose:main
+relative_move_then_pose_avec_camera = spot_examples.relative_move_then_pose_avec_camera:main
+send_inverse_kinematics_requests = spot_examples.send_inverse_kinematics_requests:main
+simple_sub = spot_examples.simple_sub:main
+spot_in_circle = spot_examples.spot_in_circle:main
+walk_forward = spot_examples.walk_forward:main
+wasd = spot_examples.wasd:main

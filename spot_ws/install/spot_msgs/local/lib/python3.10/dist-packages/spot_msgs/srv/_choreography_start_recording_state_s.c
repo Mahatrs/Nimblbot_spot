@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_py/spot_msgs/srv/_choreography_start_recording_state_s.c

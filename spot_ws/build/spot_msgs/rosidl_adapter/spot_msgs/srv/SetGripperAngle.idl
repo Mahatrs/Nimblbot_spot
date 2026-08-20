@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/SetGripperAngle.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    struct SetGripperAngle_Request {
+      @verbatim (language="comment", text=
+        "In range [0, 90]")
+      float gripper_angle;
+    };
+    struct SetGripperAngle_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/rosidl_generator_rs/synchros2_tutorials_interfaces_example/rust/src/action.rs

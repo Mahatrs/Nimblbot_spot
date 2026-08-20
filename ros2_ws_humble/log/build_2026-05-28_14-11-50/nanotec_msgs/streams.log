@@ -1,0 +1,235 @@
+[0.067s] Invoking command in '/home/mtouri/ros2_ws_humble/build/nanotec_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/opt/ros/humble /usr/bin/cmake /home/mtouri/ros2_ws_humble/src/drivers-wrapper-ros2/nanotec-wrapper-ros2/nanotec_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mtouri/ros2_ws_humble/install/nanotec_msgs
+[2.056s] -- The C compiler identification is GNU 11.4.0
+[2.057s] -- The CXX compiler identification is GNU 11.4.0
+[2.058s] -- Detecting C compiler ABI info
+[2.058s] -- Detecting C compiler ABI info - done
+[2.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.058s] -- Detecting C compile features
+[2.058s] -- Detecting C compile features - done
+[2.058s] -- Detecting CXX compiler ABI info
+[2.058s] -- Detecting CXX compiler ABI info - done
+[2.058s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.058s] -- Detecting CXX compile features
+[2.058s] -- Detecting CXX compile features - done
+[2.058s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.058s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.058s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.058s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.059s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.059s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[2.059s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.059s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.059s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.059s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.059s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.060s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.060s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.060s] -- Found PythonExtra: .so  
+[2.060s] -- Configuring done
+[2.060s] -- Generating done
+[2.060s] -- Build files have been written to: /home/mtouri/ros2_ws_humble/build/nanotec_msgs
+[2.343s] Invoked command in '/home/mtouri/ros2_ws_humble/build/nanotec_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/opt/ros/humble /usr/bin/cmake /home/mtouri/ros2_ws_humble/src/drivers-wrapper-ros2/nanotec-wrapper-ros2/nanotec_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mtouri/ros2_ws_humble/install/nanotec_msgs
+[2.344s] Invoking command in '/home/mtouri/ros2_ws_humble/build/nanotec_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/opt/ros/humble /usr/bin/cmake --build /home/mtouri/ros2_ws_humble/build/nanotec_msgs -- -j16 -l16
+[2.411s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.434s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.434s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.503s] [  7%] Built target ament_cmake_python_symlink_nanotec_msgs
+[2.958s] [  7%] Built target nanotec_msgs__rs
+[3.009s] [ 10%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanotec_msgs/msg/detail/driver_status__functions.c.o[0m
+[3.022s] [ 12%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanotec_msgs/msg/detail/device_status__functions.c.o[0m
+[3.043s] running egg_info
+[3.046s] creating nanotec_msgs.egg-info
+[3.046s] writing nanotec_msgs.egg-info/PKG-INFO
+[3.047s] writing dependency_links to nanotec_msgs.egg-info/dependency_links.txt
+[3.047s] writing top-level names to nanotec_msgs.egg-info/top_level.txt
+[3.047s] writing manifest file 'nanotec_msgs.egg-info/SOURCES.txt'
+[3.053s] reading manifest file 'nanotec_msgs.egg-info/SOURCES.txt'
+[3.055s] writing manifest file 'nanotec_msgs.egg-info/SOURCES.txt'
+[3.070s] [ 12%] Built target nanotec_msgs__cpp
+[3.088s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.095s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.118s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.156s] [ 22%] [32m[1mLinking C shared library libnanotec_msgs__rosidl_generator_c.so[0m
+[3.162s] [ 22%] Built target ament_cmake_python_build_nanotec_msgs_egg
+[3.239s] [ 22%] Built target nanotec_msgs__rosidl_generator_c
+[3.269s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.275s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.279s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.578s] [ 32%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanotec_msgs/msg/driver_status__type_support.cpp.o[0m
+[3.591s] [ 35%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanotec_msgs/msg/device_status__type_support.cpp.o[0m
+[3.623s] [ 37%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanotec_msgs/msg/detail/dds_fastrtps/driver_status__type_support.cpp.o[0m
+[3.638s] [ 40%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanotec_msgs/msg/detail/dds_fastrtps/device_status__type_support.cpp.o[0m
+[3.648s] [ 42%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanotec_msgs/msg/detail/device_status__type_support.cpp.o[0m
+[3.655s] [ 45%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanotec_msgs/msg/detail/driver_status__type_support.cpp.o[0m
+[3.772s] [ 50%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanotec_msgs/msg/driver_status__type_support.cpp.o[0m
+[3.772s] [ 50%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanotec_msgs/msg/device_status__type_support.cpp.o[0m
+[3.846s] [ 52%] [32m[1mLinking CXX shared library libnanotec_msgs__rosidl_typesupport_c.so[0m
+[4.011s] [ 52%] Built target nanotec_msgs__rosidl_typesupport_c
+[4.018s] [ 55%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanotec_msgs/msg/detail/device_status__type_support_c.cpp.o[0m
+[4.028s] [ 57%] [32mBuilding CXX object CMakeFiles/nanotec_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanotec_msgs/msg/detail/driver_status__type_support_c.cpp.o[0m
+[4.145s] [ 60%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanotec_msgs/msg/detail/driver_status__type_support.c.o[0m
+[4.146s] [ 62%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanotec_msgs/msg/detail/device_status__type_support.c.o[0m
+[4.180s] [ 65%] [32m[1mLinking CXX shared library libnanotec_msgs__rosidl_typesupport_cpp.so[0m
+[4.270s] [ 67%] [32m[1mLinking C shared library libnanotec_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.299s] [ 67%] Built target nanotec_msgs__rosidl_typesupport_cpp
+[4.371s] [ 67%] Built target nanotec_msgs__rosidl_typesupport_introspection_c
+[4.460s] [ 70%] [32m[1mLinking CXX shared library libnanotec_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.506s] [ 72%] [32m[1mLinking CXX shared library libnanotec_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.624s] [ 72%] Built target nanotec_msgs__rosidl_typesupport_introspection_cpp
+[4.649s] [ 72%] Built target nanotec_msgs__rosidl_typesupport_fastrtps_cpp
+[4.680s] [ 75%] [32m[1mLinking CXX shared library libnanotec_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.764s] [ 75%] Built target nanotec_msgs__rosidl_typesupport_fastrtps_c
+[4.791s] [ 75%] Built target nanotec_msgs
+[4.815s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.627s] [ 77%] Built target nanotec_msgs__py
+[5.707s] [ 80%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_generator_py.dir/rosidl_generator_py/nanotec_msgs/msg/_driver_status_s.c.o[0m
+[5.717s] [ 82%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_generator_py.dir/rosidl_generator_py/nanotec_msgs/msg/_device_status_s.c.o[0m
+[5.956s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/nanotec_msgs/libnanotec_msgs__rosidl_generator_py.so[0m
+[6.037s] [ 85%] Built target nanotec_msgs__rosidl_generator_py
+[6.087s] [ 87%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nanotec_msgs/_nanotec_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.095s] [ 90%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nanotec_msgs/_nanotec_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.102s] [ 92%] [32mBuilding C object CMakeFiles/nanotec_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nanotec_msgs/_nanotec_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.312s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.318s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.329s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.448s] [100%] Built target nanotec_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.475s] [100%] Built target nanotec_msgs__rosidl_typesupport_introspection_c__pyext
+[6.500s] [100%] Built target nanotec_msgs__rosidl_typesupport_c__pyext
+[6.547s] Invoked command in '/home/mtouri/ros2_ws_humble/build/nanotec_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/opt/ros/humble /usr/bin/cmake --build /home/mtouri/ros2_ws_humble/build/nanotec_msgs -- -j16 -l16
+[6.552s] Invoking command in '/home/mtouri/ros2_ws_humble/build/nanotec_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/opt/ros/humble /usr/bin/cmake --install /home/mtouri/ros2_ws_humble/build/nanotec_msgs
+[6.587s] -- Install configuration: ""
+[6.591s] -- Execute custom install script
+[6.592s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/ament_index/resource_index/rosidl_interfaces/nanotec_msgs
+[6.609s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__functions.h
+[6.638s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__struct.h
+[6.667s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__type_support.h
+[6.702s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__functions.h
+[6.752s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__struct.h
+[6.780s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__type_support.h
+[6.818s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/device_status.h
+[6.858s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/driver_status.h
+[6.895s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.930s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/library_path.sh
+[6.967s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/library_path.dsv
+[7.003s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_c.h
+[7.056s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__rosidl_typesupport_fastrtps_c.h
+[7.096s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.132s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__rosidl_typesupport_introspection_c.h
+[7.168s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__rosidl_typesupport_introspection_c.h
+[7.215s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.265s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__builder.hpp
+[7.294s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__struct.hpp
+[7.313s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__traits.hpp
+[7.338s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__type_support.hpp
+[7.354s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__builder.hpp
+[7.383s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__struct.hpp
+[7.400s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__traits.hpp
+[7.424s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__type_support.hpp
+[7.444s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/device_status.hpp
+[7.466s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/driver_status.hpp
+[7.489s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.532s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.585s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__rosidl_typesupport_fastrtps_cpp.hpp
+[7.615s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.678s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/device_status__rosidl_typesupport_introspection_cpp.hpp
+[7.718s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/include/nanotec_msgs/nanotec_msgs/msg/detail/driver_status__rosidl_typesupport_introspection_cpp.hpp
+[7.763s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/pythonpath.sh
+[7.800s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/pythonpath.dsv
+[7.857s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs-0.0.1-py3.10.egg-info/PKG-INFO
+[7.913s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs-0.0.1-py3.10.egg-info/SOURCES.txt
+[7.964s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs-0.0.1-py3.10.egg-info/dependency_links.txt
+[8.002s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs-0.0.1-py3.10.egg-info/top_level.txt
+[8.039s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/__init__.py
+[8.074s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/_nanotec_msgs_s.ep.rosidl_typesupport_c.c
+[8.116s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/_nanotec_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.146s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/_nanotec_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.162s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/libnanotec_msgs__rosidl_generator_py.so
+[8.190s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/__init__.py
+[8.210s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/_device_status.py
+[8.230s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/_device_status_s.c
+[8.264s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/_driver_status.py
+[8.306s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/_driver_status_s.c
+[8.364s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.408s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.448s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.494s] -- Up-to-date symlink: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.497s] -- Up-to-date symlink: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.498s] -- Up-to-date symlink: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/nanotec_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.501s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/ament_index/resource_index/rust_packages/nanotec_msgs
+[8.539s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/rust/Cargo.toml
+[8.582s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/rust/build.rs
+[8.623s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/rust/src/lib.rs
+[8.661s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/rust/src/msg.rs
+[8.704s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/rust/src/msg/rmw.rs
+[8.736s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/msg/DriverStatus.idl
+[8.780s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/msg/DeviceStatus.idl
+[8.819s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/msg/DriverStatus.msg
+[8.871s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/msg/DeviceStatus.msg
+[8.928s] -- Up-to-date symlink: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/msg/DeviceStatus.msg
+[8.928s] -- Up-to-date symlink: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/msg/DriverStatus.msg
+[8.928s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/ament_index/resource_index/package_run_dependencies/nanotec_msgs
+[8.970s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/ament_index/resource_index/parent_prefix_path/nanotec_msgs
+[9.033s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/ament_prefix_path.sh
+[9.069s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/ament_prefix_path.dsv
+[9.112s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/path.sh
+[9.135s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/environment/path.dsv
+[9.186s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/local_setup.bash
+[9.207s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/local_setup.sh
+[9.227s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/local_setup.zsh
+[9.247s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/local_setup.dsv
+[9.287s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/package.dsv
+[9.328s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/ament_index/resource_index/packages/nanotec_msgs
+[9.369s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/rosidl_cmake-extras.cmake
+[9.405s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.437s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.474s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.517s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.568s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.610s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.652s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgsConfig.cmake
+[9.681s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgsConfig-version.cmake
+[9.719s] -- Symlinking: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/package.xml
+[9.750s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_generator_c.so
+[9.755s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_generator_c.so" to ""
+[9.755s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_fastrtps_c.so
+[9.755s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[9.756s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_introspection_c.so
+[9.756s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_introspection_c.so" to ""
+[9.756s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_c.so
+[9.757s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_c.so" to ""
+[9.757s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.757s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.757s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_introspection_cpp.so
+[9.762s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[9.762s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_cpp.so
+[9.762s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_typesupport_cpp.so" to ""
+[10.014s] Listing '/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs'...
+[10.014s] Compiling '/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/__init__.py'...
+[10.014s] Listing '/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg'...
+[10.014s] Compiling '/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/__init__.py'...
+[10.014s] Compiling '/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/_device_status.py'...
+[10.015s] Compiling '/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages/nanotec_msgs/msg/_driver_status.py'...
+[10.048s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_generator_py.so
+[10.055s] -- Set runtime path of "/home/mtouri/ros2_ws_humble/install/nanotec_msgs/lib/libnanotec_msgs__rosidl_generator_py.so" to ""
+[10.055s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_generator_cExport.cmake
+[10.056s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.056s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.056s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.056s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.056s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.056s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_cExport.cmake
+[10.057s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.058s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_generator_cppExport.cmake
+[10.058s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.058s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.063s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.063s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.064s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_cppExport.cmake
+[10.064s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/nanotec_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.064s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_generator_pyExport.cmake
+[10.064s] -- Installing: /home/mtouri/ros2_ws_humble/install/nanotec_msgs/share/nanotec_msgs/cmake/export_nanotec_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.083s] Invoked command in '/home/mtouri/ros2_ws_humble/build/nanotec_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/opt/ros/humble /usr/bin/cmake --install /home/mtouri/ros2_ws_humble/build/nanotec_msgs

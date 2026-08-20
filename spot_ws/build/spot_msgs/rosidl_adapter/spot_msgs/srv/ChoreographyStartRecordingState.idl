@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/ChoreographyStartRecordingState.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    module ChoreographyStartRecordingState_Request_Constants {
+      @verbatim (language="comment", text=
+        "Start Replicated Enum")
+      const uint8 STATUS_UNKNOWN = 0;
+      const uint8 STATUS_OK = 1;
+      const uint8 STATUS_UNKNOWN_RECORDING_SESSION_ID = 2;
+      const uint8 STATUS_RECORDING_BUFFER_FULL = 3;
+    };
+    @verbatim (language="comment", text=
+      "This message is designed for bosdyn-api 3.3.0 so " "\n"
+      "default message definitions aren't available. They're" "\n"
+      "replicated here as constants that map to appropriate enums" "\n"
+      "https://dev.bostondynamics.com/choreography_protos/bosdyn/api/choreography_reference.html#bosdyn-api-spot-StartRecordingStateResponse-Status")
+    struct ChoreographyStartRecordingState_Request {
+      @verbatim (language="comment", text=
+        "Start Message")
+      float duration_seconds;
+    };
+    struct ChoreographyStartRecordingState_Response {
+      boolean success;
+
+      string message;
+
+      uint8 status;
+
+      uint64 recording_session_id;
+    };
+  };
+};

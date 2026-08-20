@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating whole_body_scripts.egg-info
+writing whole_body_scripts.egg-info/PKG-INFO
+writing dependency_links to whole_body_scripts.egg-info/dependency_links.txt
+writing entry points to whole_body_scripts.egg-info/entry_points.txt
+writing requirements to whole_body_scripts.egg-info/requires.txt
+writing top-level names to whole_body_scripts.egg-info/top_level.txt
+writing manifest file 'whole_body_scripts.egg-info/SOURCES.txt'
+reading manifest file 'whole_body_scripts.egg-info/SOURCES.txt'
+writing manifest file 'whole_body_scripts.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mtouri/ros2_ws_humble/install/whole_body_scripts/lib/python3.10/site-packages/whole-body-scripts.egg-link (link to .)
+
+Installed /home/mtouri/ros2_ws_humble/build/whole_body_scripts
+running symlink_data
+creating /home/mtouri/ros2_ws_humble/install/whole_body_scripts/share/ament_index
+creating /home/mtouri/ros2_ws_humble/install/whole_body_scripts/share/ament_index/resource_index
+creating /home/mtouri/ros2_ws_humble/install/whole_body_scripts/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/ros2_ws_humble/build/whole_body_scripts/resource/whole_body_scripts -> /home/mtouri/ros2_ws_humble/install/whole_body_scripts/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/ros2_ws_humble/build/whole_body_scripts/package.xml -> /home/mtouri/ros2_ws_humble/install/whole_body_scripts/share/whole_body_scripts

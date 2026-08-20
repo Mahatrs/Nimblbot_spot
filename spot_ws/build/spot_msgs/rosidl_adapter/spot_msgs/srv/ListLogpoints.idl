@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/ListLogpoints.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_spot_cam_api_msgs/msg/Logpoint.idl"
+
+module spot_msgs {
+  module srv {
+    struct ListLogpoints_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListLogpoints_Response {
+      boolean success;
+
+      string message;
+
+      sequence<bosdyn_spot_cam_api_msgs::msg::Logpoint> logpoints;
+    };
+  };
+};

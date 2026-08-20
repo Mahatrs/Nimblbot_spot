@@ -1,0 +1,4 @@
+source;share/synchros2_tutorials_interfaces_example/local_setup.bash
+source;share/synchros2_tutorials_interfaces_example/local_setup.dsv
+source;share/synchros2_tutorials_interfaces_example/local_setup.sh
+source;share/synchros2_tutorials_interfaces_example/local_setup.zsh

@@ -1,0 +1,27 @@
+[package]
+name = "spot_msgs"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+rosidl_runtime_rs = "0.6"
+serde = { version = "1", optional = true, features = ["derive"] }
+serde-big-array = { version = "0.5.1", optional = true }
+
+# ROS Dependencies
+std_msgs = "*"
+builtin_interfaces = "*"
+bosdyn_api_msgs = "*"
+bosdyn_spot_cam_api_msgs = "*"
+sensor_msgs = "*"
+proto2ros = "*"
+geometry_msgs = "*"
+action_msgs = "*"
+unique_identifier_msgs = "*"
+bosdyn_spot_api_msgs = "*"
+
+[features]
+serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'std_msgs/serde', 'builtin_interfaces/serde', 'bosdyn_api_msgs/serde', 'bosdyn_spot_cam_api_msgs/serde', 'sensor_msgs/serde', 'proto2ros/serde', 'geometry_msgs/serde', 'action_msgs/serde', 'unique_identifier_msgs/serde', 'bosdyn_spot_api_msgs/serde']
+
+[package.metadata.rclrs]
+reexport = true

@@ -1,0 +1,1 @@
+hardware_interface;pluginlib;rclcpp;rclcpp_lifecycle;std_msgs;sensor_msgs;ros2_control;ros2_controllers;spot_hardware_interface;controller_manager;spot_description;spot_common;spot_controllers;xacro;ament_cmake_pytest;python3-pytest-cov;python3-yaml;launch;launch_ros;launch_pytest

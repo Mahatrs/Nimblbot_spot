@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_typesupport_fastrtps_c/spot_msgs/srv/detail/set_ptz_position__rosidl_typesupport_fastrtps_c.h

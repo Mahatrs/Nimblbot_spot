@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/srv/detail/graph_nav_get_localization_pose__type_support.h

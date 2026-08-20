@@ -1,0 +1,7 @@
+bosdyn-client
+bosdyn-api
+bosdyn-mission
+bosdyn-core
+grpcio
+inflection
+pytest

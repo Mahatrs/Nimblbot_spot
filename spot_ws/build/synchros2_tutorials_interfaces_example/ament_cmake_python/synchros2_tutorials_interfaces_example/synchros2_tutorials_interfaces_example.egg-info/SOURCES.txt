@@ -1,0 +1,6 @@
+setup.py
+synchros2_tutorials_interfaces_example/__init__.py
+synchros2_tutorials_interfaces_example.egg-info/PKG-INFO
+synchros2_tutorials_interfaces_example.egg-info/SOURCES.txt
+synchros2_tutorials_interfaces_example.egg-info/dependency_links.txt
+synchros2_tutorials_interfaces_example.egg-info/top_level.txt

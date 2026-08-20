@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/src/spot_ros2/spot_driver/include/spot_driver/image_stitcher/image_stitcher_node.hpp

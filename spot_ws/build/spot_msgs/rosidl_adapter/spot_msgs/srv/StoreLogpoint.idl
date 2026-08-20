@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/StoreLogpoint.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_spot_cam_api_msgs/msg/Logpoint.idl"
+
+module spot_msgs {
+  module srv {
+    struct StoreLogpoint_Request {
+      @verbatim (language="comment", text=
+        "Can take values: pano, ptz, ir (if ir cam attached), c0, c1, c2, c3, c4")
+      string name;
+
+      string tag;
+    };
+    struct StoreLogpoint_Response {
+      boolean success;
+
+      string message;
+
+      bosdyn_spot_cam_api_msgs::msg::Logpoint logpoint;
+    };
+  };
+};

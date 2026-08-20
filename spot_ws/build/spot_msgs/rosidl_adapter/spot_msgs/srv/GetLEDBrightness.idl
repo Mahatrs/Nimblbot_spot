@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/GetLEDBrightness.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    struct GetLEDBrightness_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetLEDBrightness_Response {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "In order REAR_LEFT, FRONT_LEFT, FRONT_RIGHT, REAR_RIGHT")
+      sequence<float> brightness;
+    };
+  };
+};

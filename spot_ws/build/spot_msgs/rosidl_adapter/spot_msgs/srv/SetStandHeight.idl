@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/SetStandHeight.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Allows user to request a specific height for Spot to stand relative to default (in m)" "\n"
+      "-0.15m is crouching and 0.15m is tiptoes" "\n"
+      "Values outside this range are allowed but Spot will simply go to its min/max")
+    struct SetStandHeight_Request {
+      @verbatim (language="comment", text=
+        "In range [-0.15, 0.15]")
+      float height;
+    };
+    struct SetStandHeight_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

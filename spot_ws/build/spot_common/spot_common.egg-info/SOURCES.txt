@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/spot_common
+spot_common/__init__.py
+spot_common.egg-info/PKG-INFO
+spot_common.egg-info/SOURCES.txt
+spot_common.egg-info/dependency_links.txt
+spot_common.egg-info/requires.txt
+spot_common.egg-info/top_level.txt
+spot_common.egg-info/zip-safe
+spot_common/launch/__init__.py
+spot_common/launch/spot_launch_helpers.py

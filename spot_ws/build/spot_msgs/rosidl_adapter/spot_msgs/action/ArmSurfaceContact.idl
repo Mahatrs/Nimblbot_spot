@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from spot_msgs/action/ArmSurfaceContact.action
+// generated code does not contain a copyright notice
+
+#include "bosdyn_api_msgs/msg/ArmSurfaceContactRequest.idl"
+
+module spot_msgs {
+  module action {
+    struct ArmSurfaceContact_Goal {
+      bosdyn_api_msgs::msg::ArmSurfaceContactRequest command;
+    };
+    struct ArmSurfaceContact_Result {
+      boolean success;
+
+      string message;
+    };
+    struct ArmSurfaceContact_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

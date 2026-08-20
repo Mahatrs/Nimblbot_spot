@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/srv/detail/play_sound__type_support.hpp

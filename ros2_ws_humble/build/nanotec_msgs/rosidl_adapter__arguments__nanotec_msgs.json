@@ -1,0 +1,7 @@
+{
+  "package_name": "nanotec_msgs",
+  "non_idl_tuples": [
+    "/home/mtouri/ros2_ws_humble/src/drivers-wrapper-ros2/nanotec-wrapper-ros2/nanotec_msgs:msg/DriverStatus.msg",
+    "/home/mtouri/ros2_ws_humble/src/drivers-wrapper-ros2/nanotec-wrapper-ros2/nanotec_msgs:msg/DeviceStatus.msg"
+  ]
+}

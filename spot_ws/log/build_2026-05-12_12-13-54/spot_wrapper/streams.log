@@ -1,0 +1,16 @@
+[0.907s] Invoking command in '/home/mtouri/spot_ws/build/spot_wrapper': PYTHONPATH=/home/mtouri/spot_ws/build/spot_wrapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/spot_ws/build/spot_wrapper/build --no-deps
+[1.169s] running develop
+[1.357s] running egg_info
+[1.357s] creating spot_wrapper.egg-info
+[1.357s] writing spot_wrapper.egg-info/PKG-INFO
+[1.357s] writing dependency_links to spot_wrapper.egg-info/dependency_links.txt
+[1.357s] writing requirements to spot_wrapper.egg-info/requires.txt
+[1.357s] writing top-level names to spot_wrapper.egg-info/top_level.txt
+[1.357s] writing manifest file 'spot_wrapper.egg-info/SOURCES.txt'
+[1.360s] reading manifest file 'spot_wrapper.egg-info/SOURCES.txt'
+[1.360s] writing manifest file 'spot_wrapper.egg-info/SOURCES.txt'
+[1.362s] running build_ext
+[1.362s] Creating /home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages/spot-wrapper.egg-link (link to .)
+[1.362s] 
+[1.362s] Installed /home/mtouri/spot_ws/build/spot_wrapper
+[1.411s] Invoked command in '/home/mtouri/spot_ws/build/spot_wrapper' returned '0': PYTHONPATH=/home/mtouri/spot_ws/build/spot_wrapper/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/spot_ws/build/spot_wrapper/build --no-deps

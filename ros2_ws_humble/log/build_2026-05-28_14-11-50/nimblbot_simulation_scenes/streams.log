@@ -1,0 +1,35 @@
+[3.157s] Invoking command in '/home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes': PYTHONPATH=/home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes/build --no-deps symlink_data
+[3.723s] running develop
+[4.163s] running egg_info
+[4.163s] creating nimblbot_simulation_scenes.egg-info
+[4.165s] writing nimblbot_simulation_scenes.egg-info/PKG-INFO
+[4.165s] writing dependency_links to nimblbot_simulation_scenes.egg-info/dependency_links.txt
+[4.166s] writing entry points to nimblbot_simulation_scenes.egg-info/entry_points.txt
+[4.166s] writing requirements to nimblbot_simulation_scenes.egg-info/requires.txt
+[4.166s] writing top-level names to nimblbot_simulation_scenes.egg-info/top_level.txt
+[4.166s] writing manifest file 'nimblbot_simulation_scenes.egg-info/SOURCES.txt'
+[4.168s] reading manifest file 'nimblbot_simulation_scenes.egg-info/SOURCES.txt'
+[4.169s] writing manifest file 'nimblbot_simulation_scenes.egg-info/SOURCES.txt'
+[4.172s] running build_ext
+[4.172s] Creating /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/python3.10/site-packages/nimblbot-simulation-scenes.egg-link (link to .)
+[4.174s] Installing dynamic_mesh_publisher script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.174s] Installing fake_grasper script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.175s] Installing follower_tf_publisher script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.175s] Installing frames_connector script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.175s] Installing interactive_tf_publisher script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.176s] Installing mesh_publisher script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.176s] Installing robot_trajectory_visualization script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.176s] Installing tf_trace script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.176s] Installing trajectory_path_generator script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.177s] Installing update_robot_description script to /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/nimblbot_simulation_scenes
+[4.177s] 
+[4.177s] Installed /home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes
+[4.177s] running symlink_data
+[4.177s] creating /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/share/ament_index
+[4.179s] creating /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/share/ament_index/resource_index
+[4.179s] creating /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/share/ament_index/resource_index/packages
+[4.180s] symbolically linking /home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes/resource/nimblbot_simulation_scenes -> /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/share/ament_index/resource_index/packages
+[4.180s] symbolically linking /home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes/package.xml -> /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/share/nimblbot_simulation_scenes
+[4.180s] creating /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/share/nimblbot_simulation_scenes/launch
+[4.180s] symbolically linking /home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes/launch/scene_display_launch.xml -> /home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/share/nimblbot_simulation_scenes/launch
+[4.318s] Invoked command in '/home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes' returned '0': PYTHONPATH=/home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes/build --no-deps symlink_data

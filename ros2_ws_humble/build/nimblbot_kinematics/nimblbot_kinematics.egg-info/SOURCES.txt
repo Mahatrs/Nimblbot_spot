@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+nimblbot_kinematics/__init__.py
+nimblbot_kinematics/fabrik_control.py
+nimblbot_kinematics/qm_to_joint_state.py
+nimblbot_kinematics.egg-info/PKG-INFO
+nimblbot_kinematics.egg-info/SOURCES.txt
+nimblbot_kinematics.egg-info/dependency_links.txt
+nimblbot_kinematics.egg-info/entry_points.txt
+nimblbot_kinematics.egg-info/requires.txt
+nimblbot_kinematics.egg-info/top_level.txt
+nimblbot_kinematics.egg-info/zip-safe
+resource/nimblbot_kinematics

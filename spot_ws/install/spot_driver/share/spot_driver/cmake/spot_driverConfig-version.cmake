@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_driver/ament_cmake_core/spot_driverConfig-version.cmake

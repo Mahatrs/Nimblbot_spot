@@ -1,0 +1,7 @@
+{
+  "package_name": "rviz_manager_msgs",
+  "non_idl_tuples": [
+    "/home/mtouri/ros2_ws_humble/src/rviz-overlay-ros2/rviz_manager_msgs:msg/ManagerLaunch.msg",
+    "/home/mtouri/ros2_ws_humble/src/rviz-overlay-ros2/rviz_manager_msgs:msg/ManagerStatus.msg"
+  ]
+}

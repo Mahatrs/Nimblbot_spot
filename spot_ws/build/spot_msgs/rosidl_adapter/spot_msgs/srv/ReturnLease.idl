@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/ReturnLease.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_api_msgs/msg/Lease.idl"
+
+module spot_msgs {
+  module srv {
+    struct ReturnLease_Request {
+      bosdyn_api_msgs::msg::Lease lease;
+    };
+    struct ReturnLease_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

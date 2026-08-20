@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/srv/detail/get_choreography_status__functions.h

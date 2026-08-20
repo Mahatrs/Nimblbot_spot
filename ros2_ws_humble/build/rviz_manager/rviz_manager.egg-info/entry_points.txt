@@ -1,0 +1,3 @@
+[console_scripts]
+manager = rviz_manager.manager_node:main
+

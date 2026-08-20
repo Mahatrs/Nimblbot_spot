@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/MutateWorldObject.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_api_msgs/msg/MutateWorldObjectRequest.idl"
+#include "bosdyn_api_msgs/msg/MutateWorldObjectResponse.idl"
+
+module spot_msgs {
+  module srv {
+    struct MutateWorldObject_Request {
+      bosdyn_api_msgs::msg::MutateWorldObjectRequest request;
+    };
+    struct MutateWorldObject_Response {
+      bosdyn_api_msgs::msg::MutateWorldObjectResponse response;
+    };
+  };
+};

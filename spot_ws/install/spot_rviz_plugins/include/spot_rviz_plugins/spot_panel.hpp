@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/src/spot_ros2/spot_rviz_plugins/include/spot_rviz_plugins/spot_panel.hpp

@@ -1,0 +1,318 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'spot_examples']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['spot_examples'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a1923687820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a19236872e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a19236872e0>>, mixin_verb=('build',))
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mtouri/spot_ws'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/docs/source) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_common) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_common' with type 'ros.ament_python' and name 'spot_common'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_controllers) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_controllers' with type 'ros.ament_cmake' and name 'spot_controllers'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_description/spot_description) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_description/spot_description' with type 'ros.ament_cmake' and name 'spot_description'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_driver) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_driver' with type 'ros.ament_cmake' and name 'spot_driver'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_examples) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_examples' with type 'ros.ament_python' and name 'spot_examples'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_hardware_interface) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_hardware_interface' with type 'ros.ament_cmake' and name 'spot_hardware_interface'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_msgs) by extension 'ros'
+[0.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_msgs' with type 'ros.ament_cmake' and name 'spot_msgs'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_ros2_control) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_ros2_control' with type 'ros.ament_cmake' and name 'spot_ros2_control'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_rviz_plugins) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_rviz_plugins' with type 'ros.ament_cmake' and name 'spot_rviz_plugins'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extensions ['cmake', 'python']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/spot_wrapper) by extension 'python_setup_py'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/spot_wrapper' with type 'python' and name 'spot_wrapper'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2) by extension 'ros'
+[0.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/synchros2/synchros2' with type 'ros.ament_python' and name 'synchros2'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_example) by extension 'ros'
+[0.411s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/synchros2/synchros2_tutorials_example' with type 'ros.ament_python' and name 'synchros2_tutorials_example'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example) by extension 'ros'
+[0.412s] DEBUG:colcon.colcon_core.package_identification:Package 'src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example' with type 'ros.ament_cmake' and name 'synchros2_tutorials_interfaces_example'
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.412s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_description' in 'src/spot_ros2/spot_description/spot_description'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_msgs' in 'src/spot_ros2/spot_msgs'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_wrapper' in 'src/spot_ros2/spot_wrapper'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'synchros2' in 'src/spot_ros2/synchros2/synchros2'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'synchros2_tutorials_interfaces_example' in 'src/spot_ros2/synchros2/synchros2_tutorials_interfaces_example'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_common' in 'src/spot_ros2/spot_common'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_controllers' in 'src/spot_ros2/spot_controllers'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_hardware_interface' in 'src/spot_ros2/spot_hardware_interface'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_rviz_plugins' in 'src/spot_ros2/spot_rviz_plugins'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'synchros2_tutorials_example' in 'src/spot_ros2/synchros2/synchros2_tutorials_example'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_ros2_control' in 'src/spot_ros2/spot_ros2_control'
+[0.438s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'spot_driver' in 'src/spot_ros2/spot_driver'
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.454s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 20 installed packages in /home/mtouri/ros2_ws_humble/install
+[0.454s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/mtouri/spot_ws/install
+[0.456s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'cmake_target' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.521s] Level 5:colcon.colcon_core.verb:set package 'spot_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.521s] DEBUG:colcon.colcon_core.verb:Building package 'spot_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mtouri/spot_ws/build/spot_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mtouri/spot_ws/install/spot_examples', 'merge_install': False, 'path': '/home/mtouri/spot_ws/src/spot_ros2/spot_examples', 'symlink_install': False, 'test_result_base': None}
+[0.521s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.522s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.522s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mtouri/spot_ws/src/spot_ros2/spot_examples' with build type 'ament_python'
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('spot_examples', 'ament_prefix_path')
+[0.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtouri/spot_ws/install/spot_examples/share/spot_examples/hook/ament_prefix_path.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mtouri/spot_ws/install/spot_examples/share/spot_examples/hook/ament_prefix_path.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mtouri/spot_ws/install/spot_examples/share/spot_examples/hook/ament_prefix_path.sh'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.736s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mtouri/spot_ws/src/spot_ros2/spot_examples'
+[0.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mtouri/spot_ws/build/spot_examples': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example:/home/mtouri/spot_ws/install/spot_driver:/home/mtouri/spot_ws/install/spot_ros2_control:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/spot_rviz_plugins:/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/home/mtouri/ros2_ws_humble/install/whole_body_scripts:/home/mtouri/ros2_ws_humble/install/whole_body_bringup:/home/mtouri/ros2_ws_humble/install/rviz_manager_msgs:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/ros_babel_fish_test_msgs:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_bringup:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/nimblbot_description:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/home/mtouri/ros2_ws_humble/install/nanotec_msgs:/home/mtouri/ros2_ws_humble/install/hector_rviz_overlay:/home/mtouri/ros2_ws_humble/install/circular_carrier_msgs:/home/mtouri/ros2_ws_humble/install/circular_carrier_bringup:/home/mtouri/ros2_ws_humble/install/circular_carrier_description:/opt/ros/humble PYTHONPATH=/home/mtouri/spot_ws/build/spot_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/spot_ws/install/spot_examples/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2_tutorials_example:/home/mtouri/spot_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/home/mtouri/spot_ws/install/spot_driver/local/lib/python3.10/dist-packages:/home/mtouri/spot_ws/build/spot_examples:/home/mtouri/spot_ws/install/spot_examples/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/whole_body_scripts:/home/mtouri/ros2_ws_humble/install/whole_body_scripts/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/whole_body_bringup:/home/mtouri/ros2_ws_humble/install/whole_body_bringup/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/rviz_manager_msgs/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/rviz_manager:/home/mtouri/ros2_ws_humble/install/rviz_manager/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/ros_babel_fish_test_msgs/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_utils/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/nimblbot_driver/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/nimblbot_description/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/circular_carrier_control/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nanotec_driver:/home/mtouri/ros2_ws_humble/install/nanotec_driver/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mtouri/spot_ws/build/spot_examples/build
+[1.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mtouri/spot_ws/build/spot_examples' returned '1': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/synchros2_tutorials_example:/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example:/home/mtouri/spot_ws/install/spot_driver:/home/mtouri/spot_ws/install/spot_ros2_control:/home/mtouri/spot_ws/install/spot_examples:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/spot_rviz_plugins:/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/home/mtouri/ros2_ws_humble/install/whole_body_scripts:/home/mtouri/ros2_ws_humble/install/whole_body_bringup:/home/mtouri/ros2_ws_humble/install/rviz_manager_msgs:/home/mtouri/ros2_ws_humble/install/rviz_manager:/home/mtouri/ros2_ws_humble/install/ros_babel_fish_test_msgs:/home/mtouri/ros2_ws_humble/install/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_bringup:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/nimblbot_description:/home/mtouri/ros2_ws_humble/install/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/nanotec_driver:/home/mtouri/ros2_ws_humble/install/nanotec_msgs:/home/mtouri/ros2_ws_humble/install/hector_rviz_overlay:/home/mtouri/ros2_ws_humble/install/circular_carrier_msgs:/home/mtouri/ros2_ws_humble/install/circular_carrier_bringup:/home/mtouri/ros2_ws_humble/install/circular_carrier_description:/opt/ros/humble PYTHONPATH=/home/mtouri/spot_ws/build/spot_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/spot_ws/install/spot_examples/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2_tutorials_example:/home/mtouri/spot_ws/install/synchros2_tutorials_example/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/synchros2_tutorials_interfaces_example/local/lib/python3.10/dist-packages:/home/mtouri/spot_ws/install/spot_driver/local/lib/python3.10/dist-packages:/home/mtouri/spot_ws/build/spot_examples:/home/mtouri/spot_ws/install/spot_examples/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/whole_body_scripts:/home/mtouri/ros2_ws_humble/install/whole_body_scripts/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/whole_body_bringup:/home/mtouri/ros2_ws_humble/install/whole_body_bringup/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/rviz_manager_msgs/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/rviz_manager:/home/mtouri/ros2_ws_humble/install/rviz_manager/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/ros_babel_fish_test_msgs/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_control:/home/mtouri/ros2_ws_humble/install/nimblbot_control/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_utils:/home/mtouri/ros2_ws_humble/install/nimblbot_utils/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_simulation_scenes:/home/mtouri/ros2_ws_humble/install/nimblbot_simulation_scenes/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_path_follow:/home/mtouri/ros2_ws_humble/install/nimblbot_path_follow/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_kinematics:/home/mtouri/ros2_ws_humble/install/nimblbot_kinematics/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nimblbot_driver:/home/mtouri/ros2_ws_humble/install/nimblbot_driver/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/nimblbot_description/local/lib/python3.10/dist-packages:/home/mtouri/ros2_ws_humble/build/circular_carrier_control:/home/mtouri/ros2_ws_humble/install/circular_carrier_control/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/build/nanotec_driver:/home/mtouri/ros2_ws_humble/install/nanotec_driver/lib/python3.10/site-packages:/home/mtouri/ros2_ws_humble/install/nanotec_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mtouri/spot_ws/build/spot_examples/build
+[1.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.374s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.375s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.381s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.381s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.401s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtouri/spot_ws/install/local_setup.ps1'
+[1.402s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mtouri/spot_ws/install/_local_setup_util_ps1.py'
+[1.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtouri/spot_ws/install/setup.ps1'
+[1.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtouri/spot_ws/install/local_setup.sh'
+[1.406s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mtouri/spot_ws/install/_local_setup_util_sh.py'
+[1.407s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtouri/spot_ws/install/setup.sh'
+[1.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtouri/spot_ws/install/local_setup.bash'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtouri/spot_ws/install/setup.bash'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mtouri/spot_ws/install/local_setup.zsh'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mtouri/spot_ws/install/setup.zsh'

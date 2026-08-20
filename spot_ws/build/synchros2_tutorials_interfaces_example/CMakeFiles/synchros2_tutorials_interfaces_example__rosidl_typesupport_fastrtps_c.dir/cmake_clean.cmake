@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/action/detail/wait__type_support_c.cpp.o"
+  "CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/action/detail/wait__type_support_c.cpp.o.d"
+  "CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/msg/detail/string__type_support_c.cpp.o"
+  "CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/msg/detail/string__type_support_c.cpp.o.d"
+  "libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.pdb"
+  "libsynchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/action/detail/wait__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/action/detail/wait__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/msg/detail/string__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/synchros2_tutorials_interfaces_example/msg/detail/string__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/synchros2_tutorials_interfaces_example__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

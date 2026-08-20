@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/src/spot_ros2/spot_driver/include/spot_driver/object_sync/object_synchronizer_node.hpp

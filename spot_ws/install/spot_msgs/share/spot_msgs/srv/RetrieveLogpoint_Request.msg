@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_cmake/srv/RetrieveLogpoint_Request.msg

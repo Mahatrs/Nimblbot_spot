@@ -1,0 +1,3 @@
+int32 id
+string status    # "running", "stopped", "error"
+string message   # logs or error

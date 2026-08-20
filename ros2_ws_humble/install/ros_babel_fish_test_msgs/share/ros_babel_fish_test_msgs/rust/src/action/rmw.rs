@@ -1,0 +1,1 @@
+/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/rosidl_generator_rs/ros_babel_fish_test_msgs/rust/src/action/rmw.rs

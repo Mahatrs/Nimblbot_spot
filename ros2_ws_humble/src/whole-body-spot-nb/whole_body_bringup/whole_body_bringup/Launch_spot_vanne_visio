@@ -1,0 +1,439 @@
+#!/usr/bin/env python3
+
+import argparse
+import subprocess
+from pathlib import Path
+
+SPOT_SIM_PATH = "/home/mtouri/Desktop/Maha_folder/trouver_pos_simu_vanne.py"
+JSON_OUT = "/tmp/spot_best_pose.json"
+
+VALVE_JSON_OUT = "/tmp/valve_pose_3d.json"
+
+VALVE_MODEL_PATH = (
+    "/home/mtouri/Desktop/Maha_folder/Perception/"
+    "valve_model_best.pt"
+)
+
+VALVE_OUTPUT_DIR = (
+    "/home/mtouri/Desktop/Maha_folder/Perception/"
+    "yolo_results"
+)
+
+HOSTNAME = "192.168.80.3"
+SPOT_WS = "/home/mtouri/spot_ws"
+
+ESTOP_DIR = "/home/mtouri/Desktop/Maha_folder/spot-sdk/python/examples/estop"
+
+ARM_SCRIPT_DIR = "/home/mtouri/ros2_ws_humble/src/whole-body-spot-nb/whole_body_scripts/whole_body_scripts"
+ARM_WS_SETUP = "/home/mtouri/ros2_ws/install/setup.zsh"
+
+TMP_DIR = Path("/tmp/robot_terminator")
+TERMINATOR_CONFIG = TMP_DIR / "terminator_config"
+
+
+def make_script(name, command, cwd=None):
+    TMP_DIR.mkdir(parents=True, exist_ok=True)
+
+    script_path = TMP_DIR / f"{name}.sh"
+    cd_line = f"cd {cwd}" if cwd else ""
+
+    content = f"""#!/usr/bin/env zsh
+set +e
+
+trap 'echo ""; echo "Ctrl+C détecté - terminal conservé"; exec zsh' INT
+
+echo "=== {name.upper()} ==="
+
+{cd_line}
+
+{command}
+
+echo
+echo "=== Commande terminée : {name} ==="
+echo "Appuie sur Entrée pour garder ce terminal ouvert."
+read
+exec zsh
+"""
+
+    script_path.write_text(content)
+    script_path.chmod(0o755)
+
+    return str(script_path)
+
+
+def create_terminator_layout(scripts):
+    config = """
+[global_config]
+  suppress_multiple_term_dialog = True
+
+[keybindings]
+  hide_window =
+
+[profiles]
+  [[default]]
+    use_system_font = False
+    font = Monospace 11
+"""
+
+    for profile_name, script_path in scripts.items():
+        config += f"""
+  [[{profile_name}]]
+    use_system_font = False
+    font = Monospace 11
+    use_custom_command = True
+    custom_command = /usr/bin/zsh "{script_path}"
+"""
+
+    config += """
+[layouts]
+  [[robot]]
+
+    [[[window0]]]
+      type = Window
+      parent = ""
+      title = Spot Mission
+      size = 1600, 900
+
+    [[[main_split]]]
+      type = HPaned
+      parent = window0
+      order = 0
+      position = 530
+
+    [[[right_split]]]
+      type = VPaned
+      parent = main_split
+      order = 1
+      position = 450
+
+    [[[term_estop]]]
+      type = Terminal
+      parent = main_split
+      order = 0
+      profile = estop
+      title = E-STOP
+
+    [[[term_spot_driver]]]
+      type = Terminal
+      parent = right_split
+      order = 0
+      profile = spot_driver
+      title = SPOT DRIVER
+
+    [[[term_spot_move]]]
+      type = Terminal
+      parent = right_split
+      order = 1
+      profile = spot_move
+      title = SPOT MOVE + ARM
+
+[plugins]
+"""
+
+    TERMINATOR_CONFIG.write_text(config)
+
+
+def launch_terminator():
+    subprocess.Popen([
+        "terminator",
+        "--no-dbus",
+        "-g", str(TERMINATOR_CONFIG),
+        "-l", "robot"
+    ])
+
+def make_spot_and_arm_step_1(
+    step_name,
+    xtarget,
+    ytarget,
+    ztarget,
+    frame,
+):
+    return f"""
+echo
+echo "=================================================="
+echo "=== ÉTAPE {step_name} : DÉTECTION DE LA VANNE ==="
+echo "=================================================="
+
+conda deactivate 2>/dev/null || true
+clean_ros_env
+
+source /opt/ros/humble/setup.zsh
+source {SPOT_WS}/install/setup.zsh
+
+rm -f "{VALVE_JSON_OUT}"
+
+ros2 run spot_examples relative_move_then_pose_avec_camera \\
+    --model "{VALVE_MODEL_PATH}" \\
+    --valve-class handwheel \\
+    --dx {xtarget} \\
+    --dy {ytarget} \\
+    --dz {ztarget} \\
+    --dyaw 0.0 \\
+    --roll 0.0 \\
+    --pitch 0.0 \\
+    --yaw 0.0 \\
+    --frame {frame} \\
+    --output "{VALVE_OUTPUT_DIR}" \\
+    --output-json "{VALVE_JSON_OUT}" \\
+    --no-display
+
+CAMERA_EXIT_CODE=$?
+
+if [ "$CAMERA_EXIT_CODE" -ne 0 ]; then
+    echo "ERREUR : relative_pose_then_move_avec_camera a échoué."
+    echo "Code de sortie : $CAMERA_EXIT_CODE"
+    exit 1
+fi
+
+if [ ! -f "{VALVE_JSON_OUT}" ]; then
+    echo "ERREUR : fichier de position de vanne introuvable."
+    echo "Fichier attendu : {VALVE_JSON_OUT}"
+    exit 1
+fi
+
+XVANNE3D=$(python3 -c 'import json; print(json.load(open("{VALVE_JSON_OUT}"))["x"])')
+YVANNE3D=$(python3 -c 'import json; print(json.load(open("{VALVE_JSON_OUT}"))["y"])')
+ZVANNE3D=$(python3 -c 'import json; print(json.load(open("{VALVE_JSON_OUT}"))["z"])')
+VALVE_FRAME=$(python3 -c 'import json; print(json.load(open("{VALVE_JSON_OUT}")).get("frame", ""))')
+
+if [ -z "$XVANNE3D" ] || [ -z "$YVANNE3D" ] || [ -z "$ZVANNE3D" ]; then
+    echo "ERREUR : coordonnées 3D incomplètes dans {VALVE_JSON_OUT}"
+    cat "{VALVE_JSON_OUT}"
+    exit 1
+fi
+
+echo
+echo "Position 3D détectée de la vanne :"
+echo "frame=$VALVE_FRAME"
+echo "x=$XVANNE3D"
+echo "y=$YVANNE3D"
+echo "z=$ZVANNE3D"
+
+echo
+echo "=================================================="
+echo "=== ÉTAPE {step_name} : SIMULATION TARGET ==="
+echo "=================================================="
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate placo_env
+
+rm -f "{JSON_OUT}"
+
+python3 {SPOT_SIM_PATH} \\
+    --Xtarget "$XVANNE3D" \\
+    --Ytarget "$YVANNE3D" \\
+    --Ztarget "$ZVANNE3D" \\
+    --output_json {JSON_OUT}
+
+SIM_EXIT_CODE=$?
+
+if [ "$SIM_EXIT_CODE" -ne 0 ]; then
+    echo "ERREUR : la simulation a échoué."
+    echo "Code de sortie : $SIM_EXIT_CODE"
+    exit 1
+fi
+
+if [ ! -f "{JSON_OUT}" ]; then
+    echo "ERREUR : fichier JSON introuvable : {JSON_OUT}"
+    exit 1
+fi
+
+DX=$(python3 -c 'import json; print(json.load(open("{JSON_OUT}"))["real_spot_cmd"]["dx"])')
+DY=$(python3 -c 'import json; print(json.load(open("{JSON_OUT}"))["real_spot_cmd"]["dy"])')
+DYAW=$(python3 -c 'import json; print(json.load(open("{JSON_OUT}"))["real_spot_cmd"]["dyaw"])')
+DZ=$(python3 -c 'import json; print(json.load(open("{JSON_OUT}"))["real_spot_cmd"]["dz"])')
+ROLL=$(python3 -c 'import json; print(json.load(open("{JSON_OUT}"))["real_spot_cmd"]["roll"])')
+PITCH=$(python3 -c 'import json; print(json.load(open("{JSON_OUT}"))["real_spot_cmd"]["pitch"])')
+YAW=$(python3 -c 'import json; print(json.load(open("{JSON_OUT}"))["real_spot_cmd"]["yaw"])')
+
+ARM_X=$(python3 -c 'import json; d=json.load(open("{JSON_OUT}")); print(d.get("real_arm_cmd",{{}}).get("x",""))')
+ARM_Y=$(python3 -c 'import json; d=json.load(open("{JSON_OUT}")); print(d.get("real_arm_cmd",{{}}).get("y",""))')
+ARM_Z=$(python3 -c 'import json; d=json.load(open("{JSON_OUT}")); print(d.get("real_arm_cmd",{{}}).get("z",""))')
+ARM_ROLL=$(python3 -c 'import json; d=json.load(open("{JSON_OUT}")); print(d.get("real_arm_cmd",{{}}).get("roll",""))')
+ARM_PITCH=$(python3 -c 'import json; d=json.load(open("{JSON_OUT}")); print(d.get("real_arm_cmd",{{}}).get("pitch",""))')
+ARM_YAW=$(python3 -c 'import json; d=json.load(open("{JSON_OUT}")); print(d.get("real_arm_cmd",{{}}).get("yaw",""))')
+
+echo "Commande Spot calculée :"
+echo "dx=$DX dy=$DY dyaw=$DYAW dz=$DZ roll=$ROLL pitch=$PITCH yaw=$YAW"
+
+echo "ARM_X=$ARM_X"
+echo "ARM_Y=$ARM_Y"
+echo "ARM_Z=$ARM_Z"
+echo "ARM_ROLL=$ARM_ROLL"
+echo "ARM_PITCH=$ARM_PITCH"
+echo "ARM_YAW=$ARM_YAW"
+
+if [ -z "$ARM_X" ] || [ -z "$ARM_Y" ] || [ -z "$ARM_Z" ] || [ -z "$ARM_ROLL" ] || [ -z "$ARM_PITCH" ] || [ -z "$ARM_YAW" ]; then
+    echo "ERREUR : real_arm_cmd incomplet dans le JSON"
+    cat "{JSON_OUT}"
+    exit 1
+fi
+
+echo
+echo "=================================================="
+echo "=== ÉTAPE {step_name} : DÉPLACEMENT SPOT ==="
+echo "=================================================="
+
+conda deactivate 2>/dev/null || true
+clean_ros_env
+
+source /opt/ros/humble/setup.zsh
+source {SPOT_WS}/install/setup.zsh
+
+ros2 run spot_examples relative_move_then_pose \\
+    --dx "$DX" \\
+    --dy "$DY" \\
+    --dyaw "$DYAW" \\
+    --dz "$DZ" \\
+    --roll "$ROLL" \\
+    --pitch "$PITCH" \\
+    --yaw "$YAW" \\
+    --frame {frame}
+
+SPOT_MOVE_EXIT_CODE=$?
+
+if [ "$SPOT_MOVE_EXIT_CODE" -ne 0 ]; then
+    echo "ERREUR : le déplacement final de Spot a échoué."
+    exit 1
+fi
+
+echo "Spot déjà debout après étape {step_name}."
+sleep 1
+
+echo
+echo "=================================================="
+echo "=== ÉTAPE {step_name} : LANCEMENT DU BRAS ==="
+echo "=================================================="
+
+clean_ros_env
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate placo_env
+
+source /opt/ros/humble/setup.zsh
+source {ARM_WS_SETUP}
+
+cd {ARM_SCRIPT_DIR}
+
+python3 placo_to_ros_node_vanne.py \\
+    --Xbase "$ARM_X" \\
+    --Ybase "$ARM_Y" \\
+    --Zbase "$ARM_Z" \\
+    --Xtarget "$XVANNE3D" \\
+    --Ytarget "$YVANNE3D" \\
+    --Ztarget "$ZVANNE3D" \\
+    --roll 0.0 \\
+    --pitch 0.0 \\
+    --yaw 0.0
+
+sleep 1
+"""
+
+def main():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--xtarget", default=3.5, type=float)
+    parser.add_argument("--ytarget", default=0.0, type=float)
+    parser.add_argument("--ztarget", default=0.6, type=float)
+
+
+    parser.add_argument("--frame", default="odom")
+
+    args = parser.parse_args()
+
+    print("=== Création des scripts Spot ===")
+    print("Target 1:", args.xtarget, args.ytarget, args.ztarget)
+
+
+    estop_script = make_script(
+        "estop",
+        f"""
+python3 estop_gui.py {HOSTNAME}
+""",
+        cwd=ESTOP_DIR
+    )
+
+    spot_driver_script = make_script(
+        "spot_driver",
+        f"""
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin
+export PYTHONEXECUTABLE=/usr/bin/python3
+
+unset PYTHONPATH
+unset LD_LIBRARY_PATH
+
+source /opt/ros/humble/setup.zsh
+source {SPOT_WS}/install/setup.zsh
+
+which python3
+python3 --version
+
+ros2 launch spot_driver spot_driver.launch.py \\
+    config_file:={SPOT_WS}/src/spot_ros2/spot_driver/config/spot_ros_example.yaml \\
+    launch_image_publishers:=True \\
+    publish_point_clouds:=False \\
+    launch_rviz:=True
+"""
+    )
+
+    step_1_script = make_spot_and_arm_step_1(
+        "1",
+        args.xtarget,
+        args.ytarget,
+        args.ztarget,
+        args.frame,
+)
+
+
+    spot_move_script = make_script(
+        "spot_move",
+        f"""
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin
+export PYTHONEXECUTABLE=/usr/bin/python3
+
+unset PYTHONPATH
+unset LD_LIBRARY_PATH
+
+clean_ros_env() {{
+    unset ROS_DISTRO
+    unset AMENT_PREFIX_PATH
+    unset COLCON_PREFIX_PATH
+    unset CMAKE_PREFIX_PATH
+    unset PYTHONPATH
+    unset LD_LIBRARY_PATH
+}}
+
+source /opt/ros/humble/setup.zsh
+source {SPOT_WS}/install/setup.zsh
+
+which python3
+python3 --version
+
+echo "Attente du service /spot/claim..."
+
+until ros2 service list | grep -q "^/spot/claim$"; do
+    echo "Service /spot/claim pas encore disponible..."
+    sleep 2
+done
+
+echo "Service /spot/claim disponible."
+
+{step_1_script}
+
+
+"""
+    )
+
+    scripts = {
+        "estop": estop_script,
+        "spot_driver": spot_driver_script,
+        "spot_move": spot_move_script,
+    }
+
+    create_terminator_layout(scripts)
+    launch_terminator()
+
+    print("Mission Spot + bras lancée.")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from nanotec_msgs/msg/DeviceStatus.msg
+// generated code does not contain a copyright notice
+
+
+module nanotec_msgs {
+  module msg {
+    struct DeviceStatus {
+      string name;
+
+      float voltage_power;
+
+      float voltage_logic;
+
+      float temperature_motor;
+
+      float temperature_micro_chip;
+
+      boolean ready_to_switch_on;
+
+      boolean switched_on;
+
+      boolean operation_enabled;
+
+      boolean fault;
+
+      boolean voltage_enabled;
+
+      boolean quick_stop;
+
+      boolean switch_on_disabled;
+
+      boolean warning;
+
+      boolean target_reached;
+
+      boolean internal_limit_active;
+
+      int32 operation_mode_specific;
+
+      int32 homing_status;
+    };
+  };
+};

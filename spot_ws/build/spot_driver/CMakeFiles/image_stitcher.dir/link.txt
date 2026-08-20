@@ -1,0 +1,2 @@
+/usr/bin/ar qc libimage_stitcher.a CMakeFiles/image_stitcher.dir/src/image_stitcher/image_stitcher.cpp.o CMakeFiles/image_stitcher.dir/src/image_stitcher/image_stitcher_node.cpp.o
+/usr/bin/ranlib libimage_stitcher.a

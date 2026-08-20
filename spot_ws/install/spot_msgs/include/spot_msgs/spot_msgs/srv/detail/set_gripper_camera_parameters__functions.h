@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/srv/detail/set_gripper_camera_parameters__functions.h

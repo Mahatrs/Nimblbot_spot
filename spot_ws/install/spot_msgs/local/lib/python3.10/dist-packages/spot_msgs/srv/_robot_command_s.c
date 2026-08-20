@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_py/spot_msgs/srv/_robot_command_s.c

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/AcquireLease.srv
+// generated code does not contain a copyright notice
+
+#include "bosdyn_api_msgs/msg/Lease.idl"
+
+module spot_msgs {
+  module srv {
+    struct AcquireLease_Request {
+      string client_name;
+
+      string resource_name;
+
+      boolean force;
+    };
+    struct AcquireLease_Response {
+      boolean success;
+
+      string message;
+
+      bosdyn_api_msgs::msg::Lease lease;
+    };
+  };
+};

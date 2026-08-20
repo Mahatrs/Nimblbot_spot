@@ -1,0 +1,4 @@
+/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/rosidl_adapter/ros_babel_fish_test_msgs:action/SimpleTest.idl
+/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/rosidl_adapter/ros_babel_fish_test_msgs:msg/TestArray.idl
+/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/rosidl_adapter/ros_babel_fish_test_msgs:msg/TestMessage.idl
+/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/rosidl_adapter/ros_babel_fish_test_msgs:msg/TestSubArray.idl

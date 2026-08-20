@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from spot_msgs/srv/SetPtzPosition.srv
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Angles are in degrees")
+    struct SetPtzPosition_Request {
+      string name;
+
+      float pan;
+
+      float tilt;
+
+      float zoom;
+    };
+    struct SetPtzPosition_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

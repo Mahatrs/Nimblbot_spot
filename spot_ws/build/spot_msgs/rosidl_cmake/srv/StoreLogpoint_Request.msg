@@ -1,0 +1,2 @@
+string name # Can take values: pano, ptz, ir (if ir cam attached), c0, c1, c2, c3, c4
+string tag

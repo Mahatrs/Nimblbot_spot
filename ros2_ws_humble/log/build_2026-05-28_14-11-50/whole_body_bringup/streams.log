@@ -1,0 +1,23 @@
+[3.391s] Invoking command in '/home/mtouri/ros2_ws_humble/build/whole_body_bringup': PYTHONPATH=/home/mtouri/ros2_ws_humble/build/whole_body_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/ros2_ws_humble/install/whole_body_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/ros2_ws_humble/build/whole_body_bringup/build --no-deps symlink_data
+[4.419s] running develop
+[4.572s] running egg_info
+[4.572s] creating whole_body_bringup.egg-info
+[4.572s] writing whole_body_bringup.egg-info/PKG-INFO
+[4.573s] writing dependency_links to whole_body_bringup.egg-info/dependency_links.txt
+[4.573s] writing entry points to whole_body_bringup.egg-info/entry_points.txt
+[4.573s] writing requirements to whole_body_bringup.egg-info/requires.txt
+[4.573s] writing top-level names to whole_body_bringup.egg-info/top_level.txt
+[4.574s] writing manifest file 'whole_body_bringup.egg-info/SOURCES.txt'
+[4.577s] reading manifest file 'whole_body_bringup.egg-info/SOURCES.txt'
+[4.578s] writing manifest file 'whole_body_bringup.egg-info/SOURCES.txt'
+[4.581s] running build_ext
+[4.582s] Creating /home/mtouri/ros2_ws_humble/install/whole_body_bringup/lib/python3.10/site-packages/whole-body-bringup.egg-link (link to .)
+[4.583s] 
+[4.583s] Installed /home/mtouri/ros2_ws_humble/build/whole_body_bringup
+[4.583s] running symlink_data
+[4.583s] creating /home/mtouri/ros2_ws_humble/install/whole_body_bringup/share/ament_index
+[4.583s] creating /home/mtouri/ros2_ws_humble/install/whole_body_bringup/share/ament_index/resource_index
+[4.583s] creating /home/mtouri/ros2_ws_humble/install/whole_body_bringup/share/ament_index/resource_index/packages
+[4.583s] symbolically linking /home/mtouri/ros2_ws_humble/build/whole_body_bringup/resource/whole_body_bringup -> /home/mtouri/ros2_ws_humble/install/whole_body_bringup/share/ament_index/resource_index/packages
+[4.583s] symbolically linking /home/mtouri/ros2_ws_humble/build/whole_body_bringup/package.xml -> /home/mtouri/ros2_ws_humble/install/whole_body_bringup/share/whole_body_bringup
+[4.882s] Invoked command in '/home/mtouri/ros2_ws_humble/build/whole_body_bringup' returned '0': PYTHONPATH=/home/mtouri/ros2_ws_humble/build/whole_body_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mtouri/ros2_ws_humble/install/whole_body_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mtouri/ros2_ws_humble/build/whole_body_bringup/build --no-deps symlink_data

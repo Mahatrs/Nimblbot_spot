@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from spot_msgs/action/ExecuteDance.action
+// generated code does not contain a copyright notice
+
+
+module spot_msgs {
+  module action {
+    struct ExecuteDance_Goal {
+      string choreo_name;
+
+      string choreo_file_content;
+
+      sequence<uint8> choreo_sequence_serialized;
+
+      uint32 start_slice;
+    };
+    struct ExecuteDance_Result {
+      boolean success;
+
+      string message;
+    };
+    struct ExecuteDance_Feedback {
+      boolean is_dancing;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_rviz_plugins/ament_cmake_core/spot_rviz_pluginsConfig.cmake

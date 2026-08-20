@@ -1,0 +1,100 @@
+[0.022s] Invoking command in '/home/mtouri/spot_ws/build/spot_ros2_control': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface/lib:/home/mtouri/spot_ws/install/spot_controllers/lib:/home/mtouri/spot_ws/install/spot_msgs/lib:/opt/spot-cpp-sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/usr/lib PYTHONPATH=/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mtouri/spot_ws/src/spot_ros2/spot_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mtouri/spot_ws/install/spot_ros2_control
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.161s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.236s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.313s] -- Detecting CXX compiler ABI info - done
+[0.318s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.318s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.535s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.575s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.628s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.634s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.643s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.658s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.719s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.805s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.828s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.873s] -- Looking for pthread.h
+[0.942s] -- Looking for pthread.h - found
+[0.942s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.016s] -- Found Threads: TRUE  
+[1.057s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.074s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.094s] -- Found spot_hardware_interface: 0.0.0 (/home/mtouri/spot_ws/install/spot_hardware_interface/share/spot_hardware_interface/cmake)
+[1.262s] -- Found PythonInterp: /usr/bin/python3.10 (found version "3.10.12") 
+[1.275s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.280s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.374s] -- Checking for module 'grpc'
+[1.388s] --   Found grpc, version 10.0.0
+[1.429s] -- Checking for module 'grpc++'
+[1.444s] --   Found grpc++, version 1.30.2
+[1.489s] -- CMake is running /opt/spot-cpp-sdk/lib/cmake/bosdyn/UseInstallbosdyn.cmake
+[1.574s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.800s] -- Configuring done
+[2.831s] -- Generating done
+[2.840s] -- Build files have been written to: /home/mtouri/spot_ws/build/spot_ros2_control
+[2.853s] Invoked command in '/home/mtouri/spot_ws/build/spot_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface/lib:/home/mtouri/spot_ws/install/spot_controllers/lib:/home/mtouri/spot_ws/install/spot_msgs/lib:/opt/spot-cpp-sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/usr/lib PYTHONPATH=/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mtouri/spot_ws/src/spot_ros2/spot_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mtouri/spot_ws/install/spot_ros2_control
+[2.855s] Invoking command in '/home/mtouri/spot_ws/build/spot_ros2_control': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface/lib:/home/mtouri/spot_ws/install/spot_controllers/lib:/home/mtouri/spot_ws/install/spot_msgs/lib:/opt/spot-cpp-sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/usr/lib PYTHONPATH=/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mtouri/spot_ws/build/spot_ros2_control -- -j16 -l16
+[2.906s] [ 12%] [32mBuilding CXX object CMakeFiles/spot_ros2_control.dir/src/spot_joint_map.cpp.o[0m
+[5.593s] [ 25%] [32m[1mLinking CXX shared library libspot_ros2_control.so[0m
+[5.777s] [ 25%] Built target spot_ros2_control
+[5.798s] [ 50%] [32mBuilding CXX object CMakeFiles/wiggle_arm.dir/examples/wiggle_arm.cpp.o[0m
+[5.798s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_command_passthrough.dir/examples/joint_command_passthrough.cpp.o[0m
+[5.799s] [ 62%] [32mBuilding CXX object CMakeFiles/noarm_squat.dir/examples/noarm_squat.cpp.o[0m
+[13.545s] [ 75%] [32m[1mLinking CXX executable joint_command_passthrough[0m
+[13.696s] [ 87%] [32m[1mLinking CXX executable noarm_squat[0m
+[13.709s] [100%] [32m[1mLinking CXX executable wiggle_arm[0m
+[14.069s] [100%] Built target joint_command_passthrough
+[14.187s] [100%] Built target noarm_squat
+[14.202s] [100%] Built target wiggle_arm
+[14.214s] Invoked command in '/home/mtouri/spot_ws/build/spot_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface/lib:/home/mtouri/spot_ws/install/spot_controllers/lib:/home/mtouri/spot_ws/install/spot_msgs/lib:/opt/spot-cpp-sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/usr/lib PYTHONPATH=/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mtouri/spot_ws/build/spot_ros2_control -- -j16 -l16
+[14.215s] Invoking command in '/home/mtouri/spot_ws/build/spot_ros2_control': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface/lib:/home/mtouri/spot_ws/install/spot_controllers/lib:/home/mtouri/spot_ws/install/spot_msgs/lib:/opt/spot-cpp-sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/usr/lib PYTHONPATH=/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mtouri/spot_ws/build/spot_ros2_control
+[14.222s] -- Install configuration: ""
+[14.222s] -- Execute custom install script
+[14.223s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/lib/spot_ros2_control/noarm_squat
+[14.232s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/lib/spot_ros2_control/wiggle_arm
+[14.239s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/lib/spot_ros2_control/joint_command_passthrough
+[14.248s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/include/spot_ros2_control/spot_joint_map.hpp
+[14.258s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/launch/noarm_squat.launch.py
+[14.267s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/launch/spot_ros2_control.launch.py
+[14.275s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/launch/wiggle_arm.launch.py
+[14.284s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/config/spot_default_controllers_with_arm.yaml
+[14.292s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/config/spot_default_controllers_without_arm.yaml
+[14.302s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/rviz/template.rviz
+[14.310s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/environment/library_path.sh
+[14.318s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/environment/library_path.dsv
+[14.327s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/ament_index/resource_index/package_run_dependencies/spot_ros2_control
+[14.334s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/ament_index/resource_index/parent_prefix_path/spot_ros2_control
+[14.342s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/environment/ament_prefix_path.sh
+[14.350s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/environment/ament_prefix_path.dsv
+[14.359s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/environment/path.sh
+[14.366s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/environment/path.dsv
+[14.373s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/local_setup.bash
+[14.382s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/local_setup.sh
+[14.392s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/local_setup.zsh
+[14.400s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/local_setup.dsv
+[14.411s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/package.dsv
+[14.421s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/ament_index/resource_index/packages/spot_ros2_control
+[14.429s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/ament_cmake_export_targets-extras.cmake
+[14.438s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/spot_ros2_controlConfig.cmake
+[14.446s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/spot_ros2_controlConfig-version.cmake
+[14.454s] -- Symlinking: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/package.xml
+[14.463s] -- Installing: /home/mtouri/spot_ws/install/spot_ros2_control/lib/spot_ros2_control/set_gripper_gains
+[14.464s] -- Installing: /home/mtouri/spot_ws/install/spot_ros2_control/lib/spot_ros2_control/mixed_level_example
+[14.464s] -- Installing: /home/mtouri/spot_ws/install/spot_ros2_control/lib/libspot_ros2_control.so
+[14.465s] -- Set runtime path of "/home/mtouri/spot_ws/install/spot_ros2_control/lib/libspot_ros2_control.so" to ""
+[14.465s] -- Installing: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/export_spot_ros2_controlExport.cmake
+[14.465s] -- Installing: /home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/export_spot_ros2_controlExport-noconfig.cmake
+[14.468s] Invoked command in '/home/mtouri/spot_ws/build/spot_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_common:/home/mtouri/spot_ws/install/synchros2:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface:/home/mtouri/spot_ws/install/spot_controllers:/home/mtouri/spot_ws/install/spot_msgs:/home/mtouri/spot_ws/install/spot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/mtouri/spot_ws/install/spot_hardware_interface/lib:/home/mtouri/spot_ws/install/spot_controllers/lib:/home/mtouri/spot_ws/install/spot_msgs/lib:/opt/spot-cpp-sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib:/usr/lib PYTHONPATH=/home/mtouri/spot_ws/build/spot_common:/home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/synchros2:/home/mtouri/spot_ws/install/synchros2/lib/python3.10/site-packages:/home/mtouri/spot_ws/build/spot_wrapper:/home/mtouri/spot_ws/install/spot_wrapper/lib/python3.10/site-packages:/home/mtouri/spot_ws/install/spot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mtouri/spot_ws/build/spot_ros2_control

@@ -1,0 +1,9 @@
+source;share/nimblbot_utils/hook/pythonpath.ps1
+source;share/nimblbot_utils/hook/pythonpath.dsv
+source;share/nimblbot_utils/hook/pythonpath.sh
+source;share/nimblbot_utils/hook/ament_prefix_path.ps1
+source;share/nimblbot_utils/hook/ament_prefix_path.dsv
+source;share/nimblbot_utils/hook/ament_prefix_path.sh
+source;../../build/nimblbot_utils/share/nimblbot_utils/hook/pythonpath_develop.ps1
+source;../../build/nimblbot_utils/share/nimblbot_utils/hook/pythonpath_develop.dsv
+source;../../build/nimblbot_utils/share/nimblbot_utils/hook/pythonpath_develop.sh

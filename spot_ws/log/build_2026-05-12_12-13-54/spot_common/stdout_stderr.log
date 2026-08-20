@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating spot_common.egg-info
+writing spot_common.egg-info/PKG-INFO
+writing dependency_links to spot_common.egg-info/dependency_links.txt
+writing requirements to spot_common.egg-info/requires.txt
+writing top-level names to spot_common.egg-info/top_level.txt
+writing manifest file 'spot_common.egg-info/SOURCES.txt'
+reading manifest file 'spot_common.egg-info/SOURCES.txt'
+writing manifest file 'spot_common.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mtouri/spot_ws/install/spot_common/lib/python3.10/site-packages/spot-common.egg-link (link to .)
+
+Installed /home/mtouri/spot_ws/build/spot_common
+running symlink_data
+creating /home/mtouri/spot_ws/install/spot_common/share/ament_index
+creating /home/mtouri/spot_ws/install/spot_common/share/ament_index/resource_index
+creating /home/mtouri/spot_ws/install/spot_common/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/spot_ws/build/spot_common/resource/spot_common -> /home/mtouri/spot_ws/install/spot_common/share/ament_index/resource_index/packages
+symbolically linking /home/mtouri/spot_ws/build/spot_common/package.xml -> /home/mtouri/spot_ws/install/spot_common/share/spot_common

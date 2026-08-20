@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/srv/detail/get_logpoint_status__builder.hpp

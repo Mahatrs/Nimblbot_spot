@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/msg/detail/mobility_params__traits.hpp

@@ -1,0 +1,1 @@
+/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake

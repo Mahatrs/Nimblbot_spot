@@ -1,0 +1,1 @@
+/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/ament_cmake_core/rviz_manager_msgsConfig.cmake
