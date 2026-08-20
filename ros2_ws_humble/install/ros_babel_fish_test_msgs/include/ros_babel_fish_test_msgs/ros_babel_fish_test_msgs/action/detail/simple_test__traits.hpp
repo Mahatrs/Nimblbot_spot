@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/rosidl_generator_cpp/ros_babel_fish_test_msgs/action/detail/simple_test__traits.hpp

@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/src/rviz-overlay-ros2/ros_babel_fish/ros_babel_fish_test_msgs/msg/TestMessage.msg

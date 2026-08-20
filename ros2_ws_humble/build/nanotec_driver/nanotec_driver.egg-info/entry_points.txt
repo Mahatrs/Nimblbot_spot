@@ -1,4 +1,0 @@
-[console_scripts]
-real_node = nanotec_driver.real_node:main
-sim_node = nanotec_driver.sim_node:main
-

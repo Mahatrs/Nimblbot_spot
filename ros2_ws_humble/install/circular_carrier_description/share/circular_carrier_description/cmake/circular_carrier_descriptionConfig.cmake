@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/circular_carrier_description/ament_cmake_core/circular_carrier_descriptionConfig.cmake

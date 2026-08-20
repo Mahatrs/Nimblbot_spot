@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/rosidl_generator_c/rviz_manager_msgs/msg/manager_launch.h

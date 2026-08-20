@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/src/nimblbot-ros-2/nimblbot_description/xacro_maker/xacro_maker.py

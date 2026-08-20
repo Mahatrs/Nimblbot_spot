@@ -1,8 +1,0 @@
-action/SimpleTest.action
-action/SimpleTest.idl
-msg/TestArray.idl
-msg/TestArray.msg
-msg/TestMessage.idl
-msg/TestMessage.msg
-msg/TestSubArray.idl
-msg/TestSubArray.msg

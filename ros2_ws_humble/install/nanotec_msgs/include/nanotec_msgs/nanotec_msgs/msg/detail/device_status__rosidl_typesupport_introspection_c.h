@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/nanotec_msgs/rosidl_typesupport_introspection_c/nanotec_msgs/msg/detail/device_status__rosidl_typesupport_introspection_c.h

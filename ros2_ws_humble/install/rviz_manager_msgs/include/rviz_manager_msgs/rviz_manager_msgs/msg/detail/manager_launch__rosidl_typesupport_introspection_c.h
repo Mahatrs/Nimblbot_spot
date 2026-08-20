@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/rosidl_typesupport_introspection_c/rviz_manager_msgs/msg/detail/manager_launch__rosidl_typesupport_introspection_c.h

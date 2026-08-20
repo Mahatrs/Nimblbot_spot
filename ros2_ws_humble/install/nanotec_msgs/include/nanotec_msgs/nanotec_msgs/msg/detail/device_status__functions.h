@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/nanotec_msgs/rosidl_generator_c/nanotec_msgs/msg/detail/device_status__functions.h

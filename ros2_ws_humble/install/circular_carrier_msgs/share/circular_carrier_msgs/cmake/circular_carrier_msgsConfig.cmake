@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/circular_carrier_msgs/ament_cmake_core/circular_carrier_msgsConfig.cmake

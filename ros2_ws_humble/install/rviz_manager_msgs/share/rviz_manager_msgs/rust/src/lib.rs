@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/rosidl_generator_rs/rviz_manager_msgs/rust/src/lib.rs

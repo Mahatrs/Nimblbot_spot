@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/ros_babel_fish_test_msgs/rosidl_typesupport_introspection_c/ros_babel_fish_test_msgs/action/detail/simple_test__rosidl_typesupport_introspection_c.h

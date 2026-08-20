@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/ament_cmake_core/nimblbot_bringupConfig-version.cmake

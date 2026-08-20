@@ -1,9 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/uninstall.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/nimblbot_bringup_uninstall.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/test.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/edit_cache.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/rebuild_cache.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/list_install_components.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/install.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/install/local.dir
-/home/mtouri/ros2_ws_humble/build/nimblbot_bringup/CMakeFiles/install/strip.dir

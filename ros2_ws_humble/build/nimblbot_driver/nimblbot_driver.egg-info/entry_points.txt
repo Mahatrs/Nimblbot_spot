@@ -1,4 +1,0 @@
-[console_scripts]
-luos_wrapper_node = nimblbot_driver.luos_wrapper_node:main
-sim_node = nimblbot_driver.sim_node:main
-

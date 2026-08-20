@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/ament_cmake_python/rviz_manager_msgs/rviz_manager_msgs.egg-info/top_level.txt

@@ -1,9 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/uninstall.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/circular_carrier_bringup_uninstall.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/test.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/edit_cache.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/rebuild_cache.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/list_install_components.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/install.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/install/local.dir
-/home/mtouri/ros2_ws_humble/build/circular_carrier_bringup/CMakeFiles/install/strip.dir

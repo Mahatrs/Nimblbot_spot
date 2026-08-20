@@ -1,4 +1,0 @@
-[console_scripts]
-fabrik_control = nimblbot_kinematics.fabrik_control:main
-qm_to_joint_state = nimblbot_kinematics.qm_to_joint_state:main
-

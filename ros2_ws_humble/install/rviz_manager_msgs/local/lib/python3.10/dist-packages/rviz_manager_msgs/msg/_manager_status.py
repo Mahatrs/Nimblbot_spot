@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/rosidl_generator_py/rviz_manager_msgs/msg/_manager_status.py

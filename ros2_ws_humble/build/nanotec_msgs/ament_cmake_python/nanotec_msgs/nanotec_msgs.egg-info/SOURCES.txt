@@ -1,6 +1,0 @@
-setup.py
-nanotec_msgs/__init__.py
-nanotec_msgs.egg-info/PKG-INFO
-nanotec_msgs.egg-info/SOURCES.txt
-nanotec_msgs.egg-info/dependency_links.txt
-nanotec_msgs.egg-info/top_level.txt

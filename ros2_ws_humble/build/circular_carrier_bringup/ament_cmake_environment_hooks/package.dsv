@@ -1,4 +1,0 @@
-source;share/circular_carrier_bringup/local_setup.bash
-source;share/circular_carrier_bringup/local_setup.dsv
-source;share/circular_carrier_bringup/local_setup.sh
-source;share/circular_carrier_bringup/local_setup.zsh

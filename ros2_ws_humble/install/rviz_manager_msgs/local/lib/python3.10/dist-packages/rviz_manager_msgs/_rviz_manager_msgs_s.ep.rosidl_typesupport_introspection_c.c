@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/rosidl_generator_py/rviz_manager_msgs/_rviz_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c

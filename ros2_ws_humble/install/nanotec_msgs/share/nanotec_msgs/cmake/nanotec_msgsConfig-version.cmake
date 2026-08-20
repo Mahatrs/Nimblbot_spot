@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/nanotec_msgs/ament_cmake_core/nanotec_msgsConfig-version.cmake

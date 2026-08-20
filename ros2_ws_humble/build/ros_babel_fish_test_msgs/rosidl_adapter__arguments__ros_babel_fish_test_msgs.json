@@ -1,9 +1,0 @@
-{
-  "package_name": "ros_babel_fish_test_msgs",
-  "non_idl_tuples": [
-    "/home/mtouri/ros2_ws_humble/src/rviz-overlay-ros2/ros_babel_fish/ros_babel_fish_test_msgs:action/SimpleTest.action",
-    "/home/mtouri/ros2_ws_humble/src/rviz-overlay-ros2/ros_babel_fish/ros_babel_fish_test_msgs:msg/TestArray.msg",
-    "/home/mtouri/ros2_ws_humble/src/rviz-overlay-ros2/ros_babel_fish/ros_babel_fish_test_msgs:msg/TestMessage.msg",
-    "/home/mtouri/ros2_ws_humble/src/rviz-overlay-ros2/ros_babel_fish/ros_babel_fish_test_msgs:msg/TestSubArray.msg"
-  ]
-}

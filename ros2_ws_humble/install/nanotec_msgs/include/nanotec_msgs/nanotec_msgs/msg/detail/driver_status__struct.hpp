@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/nanotec_msgs/rosidl_generator_cpp/nanotec_msgs/msg/detail/driver_status__struct.hpp

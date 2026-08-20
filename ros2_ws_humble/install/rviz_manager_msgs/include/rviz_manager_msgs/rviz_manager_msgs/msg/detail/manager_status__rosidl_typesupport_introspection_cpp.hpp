@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/build/rviz_manager_msgs/rosidl_typesupport_introspection_cpp/rviz_manager_msgs/msg/detail/manager_status__rosidl_typesupport_introspection_cpp.hpp

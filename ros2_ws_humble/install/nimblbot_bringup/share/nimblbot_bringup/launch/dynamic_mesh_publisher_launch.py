@@ -1,1 +1,0 @@
-/home/mtouri/ros2_ws_humble/src/nimblbot-ros-2/nimblbot_bringup/launch/dynamic_mesh_publisher_launch.py
