@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

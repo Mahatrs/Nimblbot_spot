@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/msg/detail/feedback__struct.h

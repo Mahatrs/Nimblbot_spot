@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/src/spot_ros2/spot_driver/include/spot_driver/api/spot_clock_sources.hpp

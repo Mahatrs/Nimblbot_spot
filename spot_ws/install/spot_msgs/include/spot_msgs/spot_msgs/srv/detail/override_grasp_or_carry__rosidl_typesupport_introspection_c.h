@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_typesupport_introspection_c/spot_msgs/srv/detail/override_grasp_or_carry__rosidl_typesupport_introspection_c.h

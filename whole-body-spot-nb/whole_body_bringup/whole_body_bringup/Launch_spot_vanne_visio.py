@@ -3,30 +3,33 @@
 import argparse
 import subprocess
 from pathlib import Path
+import os
 
-#SPOT_SIM_PATH = "/home/mtouri/Desktop/Maha_folder/trouver_pos_simu_vanne.py"
-SPOT_SIM_PATH = "/home/mtouri/Desktop/Maha_folder/trouver_pose_vanne_sans_simu.py"
+user = os.environ["USER"]
+
+#SPOT_SIM_PATH = "/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities/trouver_pos_simu.py"
+SPOT_SIM_PATH= "/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities/trouver_pos_sans_simu.py"
 JSON_OUT = "/tmp/spot_best_pose.json"
 
 VALVE_JSON_OUT = "/tmp/valve_pose_3d.json"
 
 VALVE_MODEL_PATH = (
-    "/home/mtouri/Desktop/Maha_folder/Perception/"
+    "/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities/"
     "valve_model_best.pt"
 )
 
 VALVE_OUTPUT_DIR = (
-    "/home/mtouri/Desktop/Maha_folder/Perception/"
+    "/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities/"
     "yolo_results"
 )
 
 HOSTNAME = "192.168.80.3"
-SPOT_WS = "/home/mtouri/spot_ws"
+SPOT_WS = "/Nimblbot_spot/spot_ws"
 
-ESTOP_DIR = "/home/mtouri/Desktop/Maha_folder/spot-sdk/python/examples/estop"
+ESTOP_DIR = "/Nimblbot_spot/spot-sdk/python/examples/estop"
 
-ARM_SCRIPT_DIR = "/home/mtouri/ros2_ws_humble/src/whole-body-spot-nb/whole_body_scripts/whole_body_scripts"
-ARM_WS_SETUP = "/home/mtouri/ros2_ws/install/setup.zsh"
+ARM_SCRIPT_DIR = "/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities"
+ARM_WS_SETUP = f"/home/{user}/ros2_ws/install/setup.zsh"
 
 TMP_DIR = Path("/tmp/robot_terminator")
 TERMINATOR_CONFIG = TMP_DIR / "terminator_config"

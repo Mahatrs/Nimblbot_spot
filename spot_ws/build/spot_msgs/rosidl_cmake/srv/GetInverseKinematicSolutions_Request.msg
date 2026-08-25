@@ -1,1 +1,0 @@
-bosdyn_spot_api_msgs/InverseKinematicsRequest request

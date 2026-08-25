@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/src/spot_ros2/spot_driver/include/spot_driver/api/lease_client_interface.hpp

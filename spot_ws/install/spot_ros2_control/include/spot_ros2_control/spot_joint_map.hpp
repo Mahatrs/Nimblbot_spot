@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/src/spot_ros2/spot_ros2_control/include/spot_ros2_control/spot_joint_map.hpp

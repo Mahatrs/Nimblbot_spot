@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_controllers/include/spot_controllers/spot_joint_controller_parameters.hpp

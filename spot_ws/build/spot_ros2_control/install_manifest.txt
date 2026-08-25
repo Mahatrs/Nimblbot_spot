@@ -1,5 +1,0 @@
-/home/mtouri/spot_ws/install/spot_ros2_control/lib/spot_ros2_control/set_gripper_gains
-/home/mtouri/spot_ws/install/spot_ros2_control/lib/spot_ros2_control/mixed_level_example
-/home/mtouri/spot_ws/install/spot_ros2_control/lib/libspot_ros2_control.so
-/home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/export_spot_ros2_controlExport.cmake
-/home/mtouri/spot_ws/install/spot_ros2_control/share/spot_ros2_control/cmake/export_spot_ros2_controlExport-noconfig.cmake

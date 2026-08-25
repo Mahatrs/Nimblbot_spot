@@ -3,19 +3,21 @@
 import argparse
 import subprocess
 from pathlib import Path
+import os
 
+user = os.environ["USER"]
 
-SPOT_SIM_PATH = "/home/mtouri/Desktop/Maha_folder/trouver_pos_simu.py"
-SPOT_SIM_PATH_SS= "/home/mtouri/Desktop/Maha_folder/trouver_pos_sans_simu.py"
+SPOT_SIM_PATH = "/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities/trouver_pos_simu.py"
+SPOT_SIM_PATH_SS= "/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities/trouver_pos_sans_simu.py"
 JSON_OUT = "/tmp/spot_best_pose.json"
 
 HOSTNAME = "192.168.80.3"
-SPOT_WS = "/home/mtouri/spot_ws"
+SPOT_WS = "/Nimblbot_spot/spot_ws"
 
-ESTOP_DIR = "/home/mtouri/Desktop/Maha_folder/spot-sdk/python/examples/estop"
+ESTOP_DIR = "/Nimblbot_spot/spot-sdk/python/examples/estop"
 
-ARM_SCRIPT_DIR = "/home/mtouri/ros2_ws_humble/src/whole-body-spot-nb/whole_body_scripts/whole_body_scripts"
-ARM_WS_SETUP = "/home/mtouri/ros2_ws/install/setup.zsh"
+ARM_SCRIPT_DIR = "/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/utilities"
+ARM_WS_SETUP = f"/home/{user}/ros2_ws/install/setup.zsh"
 
 TMP_DIR = Path("/tmp/robot_terminator")
 TERMINATOR_CONFIG = TMP_DIR / "terminator_config"
@@ -207,7 +209,7 @@ source /opt/ros/iron/setup.zsh
 source ~/ros2_ws/install/setup.zsh
 
 echo "ROS_DISTRO=$ROS_DISTRO"
-cd ~/ros2_ws_humble/src/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/
+cd ~/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/pick_and_place
 python3 gripper_control_open.py
 
 echo
@@ -236,7 +238,7 @@ clean_ros_env
 source /opt/ros/iron/setup.zsh
 source ~/ros2_ws/install/setup.zsh
 
-cd ~/ros2_ws_humble/src/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/
+cd ~/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/pick_and_place
 python3 gripper_control_close.py
 
 sleep 1
@@ -331,7 +333,7 @@ source /opt/ros/iron/setup.zsh
 source ~/ros2_ws/install/setup.zsh
 
 echo "ROS_DISTRO=$ROS_DISTRO"
-cd ~/ros2_ws_humble/src/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/
+cd ~/Nimblbot_spot/whole-body-spot-nb/whole_body_scripts/whole_body_scripts/pick_and_place
 python3 gripper_control_open.py
 
 echo

@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/ament_cmake_python/synchros2_tutorials_interfaces_example/synchros2_tutorials_interfaces_example.egg-info/top_level.txt

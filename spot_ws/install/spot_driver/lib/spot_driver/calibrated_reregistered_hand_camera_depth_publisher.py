@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/src/spot_ros2/spot_driver/spot_driver/calibrated_reregistered_hand_camera_depth_publisher.py

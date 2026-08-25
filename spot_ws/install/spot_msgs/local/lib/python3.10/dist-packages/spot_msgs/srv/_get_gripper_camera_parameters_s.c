@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_py/spot_msgs/srv/_get_gripper_camera_parameters_s.c

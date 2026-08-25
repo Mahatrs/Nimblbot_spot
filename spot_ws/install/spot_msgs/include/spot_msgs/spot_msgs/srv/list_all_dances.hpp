@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/srv/list_all_dances.hpp

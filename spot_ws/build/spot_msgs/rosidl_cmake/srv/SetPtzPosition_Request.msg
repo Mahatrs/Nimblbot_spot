@@ -1,5 +1,0 @@
-# Angles are in degrees
-string name
-float32 pan
-float32 tilt
-float32 zoom

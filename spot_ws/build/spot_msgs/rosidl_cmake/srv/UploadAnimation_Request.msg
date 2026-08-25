@@ -1,3 +1,0 @@
-string animation_name
-string animation_file_content
-char[] animation_proto_serialized

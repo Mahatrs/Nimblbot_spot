@@ -1,3 +1,0 @@
-/home/mtouri/spot_ws/install/spot_controllers/lib/libspot_controllers.so
-/home/mtouri/spot_ws/install/spot_controllers/share/spot_controllers/cmake/export_spot_controllersExport.cmake
-/home/mtouri/spot_ws/install/spot_controllers/share/spot_controllers/cmake/export_spot_controllersExport-noconfig.cmake

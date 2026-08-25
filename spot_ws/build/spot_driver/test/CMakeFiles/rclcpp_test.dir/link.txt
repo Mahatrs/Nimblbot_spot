@@ -1,2 +1,0 @@
-/usr/bin/ar qc librclcpp_test.a CMakeFiles/rclcpp_test.dir/src/rclcpp_test.cpp.o
-/usr/bin/ranlib librclcpp_test.a

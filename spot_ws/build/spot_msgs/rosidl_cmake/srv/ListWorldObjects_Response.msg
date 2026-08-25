@@ -1,2 +1,0 @@
-
-bosdyn_api_msgs/ListWorldObjectResponse response

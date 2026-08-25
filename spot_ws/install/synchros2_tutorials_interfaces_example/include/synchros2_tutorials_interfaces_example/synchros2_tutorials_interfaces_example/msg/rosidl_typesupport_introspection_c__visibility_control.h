@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/rosidl_typesupport_introspection_c/synchros2_tutorials_interfaces_example/msg/rosidl_typesupport_introspection_c__visibility_control.h

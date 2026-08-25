@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/src/spot_ros2/spot_hardware_interface/include/spot_hardware_interface/spot_leasing_interface.hpp

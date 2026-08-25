@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_controllers/ament_cmake_core/spot_controllersConfig-version.cmake

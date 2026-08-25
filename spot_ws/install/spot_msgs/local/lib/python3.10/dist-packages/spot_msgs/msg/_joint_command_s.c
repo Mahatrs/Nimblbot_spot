@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_py/spot_msgs/msg/_joint_command_s.c

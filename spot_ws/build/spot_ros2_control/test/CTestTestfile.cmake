@@ -1,8 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/mtouri/spot_ws/src/spot_ros2/spot_ros2_control/test
-# Build directory: /home/mtouri/spot_ws/build/spot_ros2_control/test
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test([=[spot_ros2_control_pytest]=] "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/mtouri/spot_ws/build/spot_ros2_control/test_results/spot_ros2_control/spot_ros2_control_pytest.xunit.xml" "--package-name" "spot_ros2_control" "--output-file" "/home/mtouri/spot_ws/build/spot_ros2_control/ament_cmake_pytest/spot_ros2_control_pytest.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/mtouri/spot_ws/src/spot_ros2/spot_ros2_control/test" "-o" "cache_dir=/home/mtouri/spot_ws/build/spot_ros2_control/test/ament_cmake_pytest/spot_ros2_control_pytest/.cache" "--junit-xml=/home/mtouri/spot_ws/build/spot_ros2_control/test_results/spot_ros2_control/spot_ros2_control_pytest.xunit.xml" "--junit-prefix=spot_ros2_control")
-set_tests_properties([=[spot_ros2_control_pytest]=] PROPERTIES  LABELS "pytest" TIMEOUT "60" WORKING_DIRECTORY "/home/mtouri/spot_ws/build/spot_ros2_control/test" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake;169;ament_add_test;/home/mtouri/spot_ws/src/spot_ros2/spot_ros2_control/test/CMakeLists.txt;5;ament_add_pytest_test;/home/mtouri/spot_ws/src/spot_ros2/spot_ros2_control/test/CMakeLists.txt;0;")

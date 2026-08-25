@@ -1,3 +1,0 @@
-/home/mtouri/spot_ws/install/spot_rviz_plugins/lib/libspot_rviz_plugins.so
-/home/mtouri/spot_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/export_spot_rviz_pluginsExport.cmake
-/home/mtouri/spot_ws/install/spot_rviz_plugins/share/spot_rviz_plugins/cmake/export_spot_rviz_pluginsExport-noconfig.cmake

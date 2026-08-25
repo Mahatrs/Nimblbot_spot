@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_cpp/spot_msgs/msg/detail/system_fault_state__type_support.hpp

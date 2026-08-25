@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/synchros2_tutorials_interfaces_example/rosidl_typesupport_fastrtps_cpp/synchros2_tutorials_interfaces_example/msg/detail/string__rosidl_typesupport_fastrtps_cpp.hpp

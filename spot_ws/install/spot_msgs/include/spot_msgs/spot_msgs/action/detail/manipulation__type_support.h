@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/action/detail/manipulation__type_support.h

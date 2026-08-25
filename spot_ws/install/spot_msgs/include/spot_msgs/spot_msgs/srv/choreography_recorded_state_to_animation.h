@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_c/spot_msgs/srv/choreography_recorded_state_to_animation.h

@@ -1,1 +1,0 @@
-/home/mtouri/spot_ws/build/spot_msgs/rosidl_generator_py/spot_msgs/_spot_msgs_s.ep.rosidl_typesupport_introspection_c.c
